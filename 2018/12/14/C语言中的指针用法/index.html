@@ -85,13 +85,10 @@
 <meta property="og:site_name" content="李奎">
 <meta property="og:description" content="C语言中指针的使用 对于指针变量的引用 合理引用 123456789101112131415#include &amp;lt;stdio.h&amp;gt;/*指针的使用*//*2018年12月14日14:37:26*//*注意区分  *ipointer_1 与 ipointer_1的不同 */int main(void)&amp;#123;    int * p;//定义指针变量	int a= 10;	p = &amp;amp">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://t1.picb.cc/uploads/2018/12/14/JLFSHK.png">
-<meta property="og:image" content="https://t1.picb.cc/uploads/2018/12/14/JLFX0N.png">
-<meta property="og:updated_time" content="2018-12-14T07:28:41.491Z">
+<meta property="og:updated_time" content="2018-12-14T08:17:53.555Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C语言中的指针用法">
 <meta name="twitter:description" content="C语言中指针的使用 对于指针变量的引用 合理引用 123456789101112131415#include &amp;lt;stdio.h&amp;gt;/*指针的使用*//*2018年12月14日14:37:26*//*注意区分  *ipointer_1 与 ipointer_1的不同 */int main(void)&amp;#123;    int * p;//定义指针变量	int a= 10;	p = &amp;amp">
-<meta name="twitter:image" content="https://t1.picb.cc/uploads/2018/12/14/JLFSHK.png">
 
 
 
@@ -415,17 +412,13 @@
 <li><p>合理引用</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">/*指针的使用*/</span></span><br><span class="line"><span class="comment">/*2018年12月14日14:37:26*/</span></span><br><span class="line"><span class="comment">/*注意区分  *ipointer_1 与 ipointer_1的不同 */</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> * p;<span class="comment">//定义指针变量</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> a= <span class="number">10</span>;</span><br><span class="line">	p = &amp;a;</span><br><span class="line">	* p =<span class="number">12</span>;</span><br><span class="line"></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,* p);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>运行之后的结果为：</p>
-<p><img src="https://t1.picb.cc/uploads/2018/12/14/JLFSHK.png" alt="JLFSHK.png"></p>
+<p>运行之后的结果为：<code>12</code></p>
 </li>
 <li><p>非法引用</p>
 <p>如果屏蔽第十行代码<code>p = &amp;a;</code></p>
-<p>编译没有问题:</p>
-<p>!LFX0N.png](<a href="https://t1.picb.cc/uploads/2018/12/14/JLFX0N.png" target="_blank" rel="noopener">https://t1.picb.cc/uploads/2018/12/14/JLFX0N.png</a>)</p>
+<p>编译没有问题, 但是运行就会出错。</p>
 </li>
 </ul>
-<p>​      但是运行就会出错:</p>
-<p><img src="https://t1.picb.cc/uploads/2018/12/14/JLFX0N.png" alt="JLFX0N.png"></p>
 <p>这里错误的原因是：</p>
 <ul>
 <li>*p为指针变量  这里给一个常量，没有给它一个指向。</li>
