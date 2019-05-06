@@ -86,7 +86,8 @@
 <meta property="og:description" content="1234567运算符:=函数:main()、print()编写一个简单的C程序创建整型变量，为其赋值并显示其值换行字符如何在程序中写注释，创建包含多个函数的程序，发现程序的错误什么是关键字">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://likui.co/2019/05/06/c语言概述/2019-05-06_142919.png">
-<meta property="og:updated_time" content="2019-05-06T06:57:00.114Z">
+<meta property="og:image" content="http://likui.co/2019/05/06/c语言概述/2019-05-06_154420.png">
+<meta property="og:updated_time" content="2019-05-06T07:57:31.745Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="c语言概述">
 <meta name="twitter:description" content="1234567运算符:=函数:main()、print()编写一个简单的C程序创建整型变量，为其赋值并显示其值换行字符如何在程序中写注释，创建包含多个函数的程序，发现程序的错误什么是关键字">
@@ -415,7 +416,75 @@
  <a id="more"></a>
 <h4 id="2-1-简单的C程序示例"><a href="#2-1-简单的C程序示例" class="headerlink" title="2.1 简单的C程序示例"></a>2.1 简单的C程序示例</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;/*包含另一个文件*/</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span><span class="comment">/*函数名*/</span></span></span><br><span class="line"><span class="function"></span>&#123;<span class="comment">/*函数体开始*/</span></span><br><span class="line">    <span class="keyword">int</span> nun;<span class="comment">/*申明*/</span></span><br><span class="line">    num = <span class="number">1</span>;<span class="comment">/*赋值*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"I am a simple "</span>);<span class="comment">/*调用一个函数*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Computer!\n"</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"My favorite number is %d\n"</span>,num);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="2-2-示例解释"><a href="#2-2-示例解释" class="headerlink" title="2.2 示例解释"></a>2.2 示例解释</h4><p><img src="/2019/05/06/c语言概述/2019-05-06_142919.png" alt=""></p>
-<h4 id="2-3-简单程序结构"><a href="#2-3-简单程序结构" class="headerlink" title="2.3 简单程序结构"></a>2.3 简单程序结构</h4><h4 id="2-4-提高程序可读性的技巧"><a href="#2-4-提高程序可读性的技巧" class="headerlink" title="2.4 提高程序可读性的技巧"></a>2.4 提高程序可读性的技巧</h4><h4 id="2-5-进一步使用c"><a href="#2-5-进一步使用c" class="headerlink" title="2.5  进一步使用c"></a>2.5  进一步使用c</h4><h4 id="2-6-多个函数"><a href="#2-6-多个函数" class="headerlink" title="2.6 多个函数"></a>2.6 多个函数</h4><h4 id="2-7-调试程序"><a href="#2-7-调试程序" class="headerlink" title="2.7 调试程序"></a>2.7 调试程序</h4><h4 id="2-8-关键字和保留标识符"><a href="#2-8-关键字和保留标识符" class="headerlink" title="2.8 关键字和保留标识符"></a>2.8 关键字和保留标识符</h4>
+<h4 id="2-3-简单程序结构"><a href="#2-3-简单程序结构" class="headerlink" title="2.3 简单程序结构"></a>2.3 简单程序结构</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">程序由一个或多个函数组成，必须有main()函数。函数由函数头和函数体组成。函数头包括函数名、传入该哈数1的信息类型和函数的返回类型。通过函数名后的圆括号可识别出函数，圆括号里可能为空，可能有参数。</span><br></pre></td></tr></table></figure>
+<h4 id="2-4-提高程序可读性的技巧"><a href="#2-4-提高程序可读性的技巧" class="headerlink" title="2.4 提高程序可读性的技巧"></a>2.4 提高程序可读性的技巧</h4><p><img src="/2019/05/06/c语言概述/2019-05-06_154420.png" alt=""></p>
+<h4 id="2-5-进一步使用c"><a href="#2-5-进一步使用c" class="headerlink" title="2.5  进一步使用c"></a>2.5  进一步使用c</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> feet,fathoms;</span><br><span class="line">    fathoms = <span class="number">2</span>;</span><br><span class="line">    feet = fathoms*<span class="number">6</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"There are %d feet in %d fathoms!\n"</span>,feet,fathoms);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Yes,I said %d feet!\n"</span>,fathoms*<span class="number">6</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-6-多个函数"><a href="#2-6-多个函数" class="headerlink" title="2.6 多个函数"></a>2.6 多个函数</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//自定义函数</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">butler</span><span class="params">(<span class="keyword">void</span>)</span></span>;<span class="comment">//函数申明</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"I will summon the butler function.\n"</span>);</span><br><span class="line">    butler();<span class="comment">//函数调用</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Yes.Bring me some tea and writeable DVDs.\n"</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">butler</span><span class="params">(<span class="keyword">void</span>)</span><span class="comment">//函数定义</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"You rang,sir?\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="2-7-调试程序"><a href="#2-7-调试程序" class="headerlink" title="2.7 调试程序"></a>2.7 调试程序</h4><ul>
+<li>语法错误</li>
+<li>语义错误</li>
+<li>程序状态</li>
+</ul>
+<h4 id="2-8-关键字和保留标识符"><a href="#2-8-关键字和保留标识符" class="headerlink" title="2.8 关键字和保留标识符"></a>2.8 关键字和保留标识符</h4><table>
+<thead>
+<tr>
+<th>auto</th>
+<th>extern</th>
+<th>short</th>
+<th>while</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>break</td>
+<td>float</td>
+<td>signed</td>
+<td>_Alignas</td>
+</tr>
+<tr>
+<td>case</td>
+<td>for</td>
+<td>sizeof</td>
+<td>_Alignof</td>
+</tr>
+<tr>
+<td>char</td>
+<td>goto</td>
+<td>static</td>
+<td>_Atomic</td>
+</tr>
+<tr>
+<td>const</td>
+<td>if</td>
+<td>struct</td>
+<td>_Bool</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>inline</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
       
     </div>
     
