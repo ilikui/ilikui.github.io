@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Leap day theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-leap-day.svg)](https://badge.fury.io/rb/jekyll-theme-leap-day)
@@ -114,3 +115,9 @@ If you'd like to preview the theme locally (for example, in the process of propo
 ### Running tests
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+=======
+# 数据测试
+
+
+## 数据测试2
+>>>>>>> 44f776dde1f6abd9a4f1d78a5b8374c6c9b3b4a2
