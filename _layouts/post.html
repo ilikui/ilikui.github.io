@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-{% assign post = page %}
-<main class="container">
-    <div class="row">
-        <div class="col-2">
-            <a href="{{ site.baseurl }}/">[ Home ]</a>
-            <article>
-                <h1>{{ post.title }}</h1>
-                <small>{% include post_date.html %}</small>
-                <p>{{ content }}</p>
-            </article>
-            {% include buttons.html %}
-        </div>
-        {% include post_sidebar.html %}
-    </div>
-</main>
+
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
+
+  <div class="post-body">
+    {{ content }}
+    {% include post-tags.html post=page %}
+  </div>
+
+  {% include comments.html %}
+  {% include related_posts.html %}
+</div>
