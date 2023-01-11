@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-01-10T08:12:05.398Z</updated>
+  <updated>2023-01-11T09:19:23.272Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2023-01-11T09:04:33.000Z</published>
+    <updated>2023-01-11T09:19:23.272Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我的第一篇文章</p></blockquote><span id="more"></span><p>图片测试</p><p><img src="/../Images/2023011101.JPG"></p>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;我的第一篇文章&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
