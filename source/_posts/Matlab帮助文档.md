@@ -1,5 +1,5 @@
 ---
-title: Matalb帮助文档
+title: Matlab帮助文档
 date: 2023-01-12 10:42:54
 categories:  Matlab
 tags:
@@ -48,6 +48,10 @@ tags:
 * 资源
     * [发行说明](https://ww2.mathworks.cn/help/relnotes/index.html?s_tid=hc_resources)
     * [安装帮助](https://ww2.mathworks.cn/help/install/index.html?s_tid=hc_resources)
+    * [硬件支持](https://www.mathworks.com/hardware-support/home.html?s_tid=hc_resources)
+    * [Bug 报告](https://ww2.mathworks.cn/support/bugreports/?s_tid=hc_resources&requestedDomain=zh)
+    * [社区](https://ww2.mathworks.cn/matlabcentral/?s_tid=hc_resources)
+    * [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=hc_resources)
 
 
 
