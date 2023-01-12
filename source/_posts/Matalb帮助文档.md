@@ -24,6 +24,9 @@ tags:
     * [数学和优化](https://ww2.mathworks.cn/help/overview/mathematics-and-optimization.html?s_tid=hc_panel)
 
 * 工作流
+    * [并行计算](https://ww2.mathworks.cn/help/overview/parallel-computing.html?s_tid=hc_panel)
+    * [报告和数据库访问](https://ww2.mathworks.cn/help/overview/reporting-and-database-access.html?s_tid=hc_panel)
+    * [系统工程](https://ww2.mathworks.cn/help/overview/systems-engineering.html?s_tid=hc_panel)
 
 * 资源
     * [发行说明](https://ww2.mathworks.cn/help/relnotes/index.html?s_tid=hc_resources)
