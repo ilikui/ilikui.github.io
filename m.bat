@@ -17,7 +17,7 @@ rem  the path of the git command
 
 	REM delay 3 second
 	TIMEOUT /T 3	 
-	git commit -m  "update by likui"
+	git commit -m  "HEXO Disable 404 menue"
 	REM delay 5 second
 	TIMEOUT /T 5	
 	git push
