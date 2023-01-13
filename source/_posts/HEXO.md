@@ -24,4 +24,5 @@ tags:
 * [多台电脑同时维护一个hexo博客](http://www.fightingfrog.cn/2021/04/03/%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E5%90%8C%E6%97%B6%E7%BB%B4%E6%8A%A4%E4%B8%80%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2/)
 * [设置 hexo 下 next 主题的 404 页面](https://blog.cmyr.ltd/archives/e85d425e.html)
 * [腾讯404](https://news.qq.com/404/)
+* [hexo 如何取消创建博客时，自动生成对应的文件夹](https://blog.csdn.net/Hodors/article/details/111033680)
 
