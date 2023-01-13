@@ -16,6 +16,8 @@ tags:
 <!--more-->
 
 
+![](../images/20230113/2023011302.JPG)
+
 
 
 
@@ -25,4 +27,5 @@ tags:
 * [设置 hexo 下 next 主题的 404 页面](https://blog.cmyr.ltd/archives/e85d425e.html)
 * [腾讯404](https://news.qq.com/404/)
 * [hexo 如何取消创建博客时，自动生成对应的文件夹](https://blog.csdn.net/Hodors/article/details/111033680)
+* [解决 Hexo 搭建博客显示不出分类、标签问题](https://blog.csdn.net/Wonz5130/article/details/84666519)
 
