@@ -17,7 +17,7 @@ rem  the path of the git command
 
 	REM delay 3 second
 	TIMEOUT /T 3	 
-	git commit -m  "HEXO Disable 404 menue"
+	git commit -m  "HEXO upload the NodeJS"
 	REM delay 5 second
 	TIMEOUT /T 5	
 	git push
