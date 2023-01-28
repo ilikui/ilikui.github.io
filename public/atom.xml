@@ -46,9 +46,9 @@
     <link href="http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
     <id>http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</id>
     <published>2023-01-13T05:31:52.000Z</published>
-    <updated>2023-01-13T05:50:24.634Z</updated>
+    <updated>2023-01-28T08:12:37.336Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -147,9 +147,9 @@
     <link href="http://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2023-01-11T09:04:33.000Z</published>
-    <updated>2023-01-13T07:14:27.679Z</updated>
+    <updated>2023-01-28T08:11:30.492Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>我的第一篇文章</p></blockquote><span id="more"></span><ul><li>图片测试</li></ul><p><img src="/../images/2023011101.JPG"></p><ul><li>代码测试</li></ul><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello world&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>数学公式测试</li></ul><p>$$\frac{\partial u}{\partial t}<br>&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p><ul><li>视频测试</li></ul><p><a href="https://www.skypixel.com/videos/a5ce8e05-e556-4f54-bea3-b56542fac79c">视频链接</a></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>我的第一篇文章</p></blockquote><span id="more"></span><ul><li>图片测试</li></ul><p><img src="/../images/20230111/2023011101.JPG"></p><ul><li>代码测试</li></ul><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello world&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>数学公式测试</li></ul><p>$$\frac{\partial u}{\partial t}<br>&#x3D; h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p><ul><li>视频测试</li></ul><p><a href="https://www.skypixel.com/videos/a5ce8e05-e556-4f54-bea3-b56542fac79c">视频链接</a></p>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
