@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-01-13T05:50:24.634Z</updated>
+  <updated>2023-01-28T01:48:16.453Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>002-Wordpress更换IP地址后样式错乱</title>
+    <link href="http://www.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/"/>
+    <id>http://www.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/</id>
+    <published>2023-01-28T01:47:56.000Z</published>
+    <updated>2023-01-28T01:48:16.453Z</updated>
+    
+    
+    
+    
+    <category term="Website" scheme="http://www.likui.info/categories/Website/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>001 Autosar知识汇总</title>
