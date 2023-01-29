@@ -9,7 +9,7 @@ tags:
 
 <!--more-->
 
-![](../images/matlab.JPG)
+![](../images//20230111/matlab.JPG)
 
 * 使用 MATLAB
     * [MATLAB帮助文档](https://ww2.mathworks.cn/help/matlab/index.html?s_tid=hc_panel)
