@@ -65,9 +65,9 @@
     <link href="http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
     <id>http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</id>
     <published>2023-01-13T05:31:52.000Z</published>
-    <updated>2023-01-28T08:12:37.336Z</updated>
+    <updated>2023-01-30T07:12:03.621Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li></ul><hr><blockquote><p>DCM模块</p></blockquote><ul><li><a href="https://www.cnblogs.com/still-smile/p/12144583.html">DCM</a>  参考文档<a href="https://www.autosar.org/fileadmin/fileadmin/standards/tests/1-0/AUTOSAR_ATS_DiagnosticServices.pdf">AUTOSAR_ATS_DiagnosticServices</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
