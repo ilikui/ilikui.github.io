@@ -18,6 +18,9 @@ tags:
 * [Jira](https://jira.autosar.org/secure/Dashboard.jspa)
 * [AUTOSAR介绍](https://neyzoter.cn/wiki/AUTOSAR/)
 * [AUTOSAR PNC数据流分析](https://cloud.tencent.com/developer/article/1984889)
+* [automotivetechis](https://automotivetechis.wordpress.com/)
+* [AUTOSAR COMPENDIUM](https://www.ar-compendium.com/overview-compendium-part-1/)
+* [biblio](https://webthesis.biblio.polito.it/)
 
 ---
 

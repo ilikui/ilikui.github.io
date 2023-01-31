@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-01-30T03:26:11.853Z</updated>
+  <updated>2023-01-31T01:33:19.327Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="http://www.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     <id>http://www.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
     <published>2023-01-30T02:03:00.000Z</published>
-    <updated>2023-01-30T03:26:11.853Z</updated>
+    <updated>2023-01-31T01:33:19.327Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/../images/20230130/2023013001.PNG"></p><span id="more"></span><ul><li><a href="https://v2ex.com/t/862245">自动驾驶汽车用的是什么操作系统?</a></li><li><a href="https://www.ou.nl/documents/40554/791670/IM0203_03.pdf/30dae517-691e-b3c7-22ed-a55ad27726d6">架构模式</a></li><li><a href="https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013">10个常见的软件架构模式</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>自动驾驶使用的操作系统</p></blockquote><span id="more"></span><p><img src="/../images/20230130/2023013001.PNG"></p><!--more--><ul><li><a href="https://v2ex.com/t/862245">自动驾驶汽车用的是什么操作系统?</a></li><li><a href="https://www.ou.nl/documents/40554/791670/IM0203_03.pdf/30dae517-691e-b3c7-22ed-a55ad27726d6">架构模式</a></li><li><a href="https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013">10个常见的软件架构模式</a></li></ul>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/20230130/2023013001.PNG&quot;&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;自动驾驶使用的操作系统&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -65,9 +67,9 @@
     <link href="http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
     <id>http://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</id>
     <published>2023-01-13T05:31:52.000Z</published>
-    <updated>2023-01-30T07:12:03.621Z</updated>
+    <updated>2023-01-31T01:23:20.900Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li></ul><hr><blockquote><p>DCM模块</p></blockquote><ul><li><a href="https://www.cnblogs.com/still-smile/p/12144583.html">DCM</a>  参考文档<a href="https://www.autosar.org/fileadmin/fileadmin/standards/tests/1-0/AUTOSAR_ATS_DiagnosticServices.pdf">AUTOSAR_ATS_DiagnosticServices</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Autosar知识汇总</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011301.JPG"></p><hr><ul><li><a href="https://www.autosar.org/">Autosar官网</a></li><li><a href="https://jira.autosar.org/secure/Dashboard.jspa">Jira</a></li><li><a href="https://neyzoter.cn/wiki/AUTOSAR/">AUTOSAR介绍</a></li><li><a href="https://cloud.tencent.com/developer/article/1984889">AUTOSAR PNC数据流分析</a></li><li><a href="https://automotivetechis.wordpress.com/">automotivetechis</a></li><li><a href="https://www.ar-compendium.com/overview-compendium-part-1/">AUTOSAR COMPENDIUM</a></li></ul><hr><blockquote><p>DCM模块</p></blockquote><ul><li><a href="https://www.cnblogs.com/still-smile/p/12144583.html">DCM</a>  参考文档<a href="https://www.autosar.org/fileadmin/fileadmin/standards/tests/1-0/AUTOSAR_ATS_DiagnosticServices.pdf">AUTOSAR_ATS_DiagnosticServices</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
