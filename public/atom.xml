@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-02-01T01:58:40.883Z</updated>
+  <updated>2023-02-03T02:27:18.349Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>006-Windos用控制台关闭某个程序</title>
+    <link href="http://www.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://www.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/</id>
+    <published>2023-02-03T02:01:59.000Z</published>
+    <updated>2023-02-03T02:27:18.349Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Windos用控制台关闭某个程序</p></blockquote><span id="more"></span><p><img src="/../images/20230203/2023020302.PNG"></p><ol><li>首先进入cmd页面</li><li>在cmd命令行下输入tasklist&#x2F;svc 就可以看到计算机当前正在运行程序以及对应的PID,通过程序名和ID号可以对程序的开启进行操作</li></ol><p><img src="/../images/20230203/2023020301.PNG"><br>3. 如果要关闭某个程序：taskkill &#x2F;f &#x2F;im “程序名称”,之后可以看到对应服务一栏的状态改变,显示为暂缺即已经关闭该程序<br>4. 使用dos命令行可以对正在运行的程序进行进行管理,对于多桌面任务的管理是十分有用的,同样在脚本中可以完成多个指令的输入,来关闭多个耗费大量资源的程序,有助于电脑的正常工作.</p><ul><li>[1] <a href="https://blog.csdn.net/guyan1101/article/details/72817956">Windows CMD模式下关闭应用程序</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Windos用控制台关闭某个程序&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Windows" scheme="http://www.likui.info/categories/Windows/"/>
+    
+    
+    <category term="Program" scheme="http://www.likui.info/tags/Program/"/>
+    
+  </entry>
   
   <entry>
     <title>005-如何理解autosar中定义一些宏代码</title>
@@ -172,9 +195,9 @@
     <link href="http://www.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
     <id>http://www.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
     <published>2023-01-12T05:15:27.000Z</published>
-    <updated>2023-02-01T02:16:31.115Z</updated>
+    <updated>2023-02-03T02:25:03.935Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>相关的网站推荐链接</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011201.JPG"></p><hr><blockquote><p> Markdown 软件设置图片大小比例</p></blockquote><ul><li><a href="https://www.zhihu.com/question/23378396">markdown中插入图片怎么定义图片的大小或比例</a></li></ul><blockquote><p>常用的网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>V2</td><td><a href="https://v2.nl/">V2</a></td><td>博客推荐</td></tr><tr><td>chatGPT</td><td><a href="https://chat.openai.com/chat">chatGPT</a></td><td>OpenAI</td></tr><tr><td>科学网</td><td><a href="https://www.sciencenet.cn/">科学网</a></td><td>科学网</td></tr><tr><td>科学网博客</td><td><a href="https://blog.sciencenet.cn/blog.php">科学网博客</a></td><td>科学网博客</td></tr><tr><td>medium</td><td><a href="https://medium.com/">medium</a></td><td>medium</td></tr><tr><td>read</td><td><a href="https://read.cv/">read</a></td><td>read</td></tr><tr><td>r2coding</td><td><a href="https://www.r2coding.com/">r2coding</a></td><td>r2coding</td></tr></tbody></table><blockquote><p>常看的博客网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>leimao</td><td><a href="https://leimao.github.io/">leimao</a></td><td>leimao</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>相关的网站推荐链接</p></blockquote><span id="more"></span><p><img src="/../images/20230111/2023011201.JPG"></p><hr><blockquote><p> Markdown 软件设置图片大小比例</p></blockquote><ul><li><a href="https://www.zhihu.com/question/23378396">markdown中插入图片怎么定义图片的大小或比例</a></li></ul><blockquote><p>常用的网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>V2</td><td><a href="https://v2.nl/">V2</a></td><td>博客推荐</td></tr><tr><td>chatGPT</td><td><a href="https://chat.openai.com/chat">chatGPT</a></td><td>OpenAI</td></tr><tr><td>科学网</td><td><a href="https://www.sciencenet.cn/">科学网</a></td><td>科学网</td></tr><tr><td>科学网博客</td><td><a href="https://blog.sciencenet.cn/blog.php">科学网博客</a></td><td>科学网博客</td></tr><tr><td>medium</td><td><a href="https://medium.com/">medium</a></td><td>medium</td></tr><tr><td>read</td><td><a href="https://read.cv/">read</a></td><td>read</td></tr><tr><td>r2coding</td><td><a href="https://www.r2coding.com/">r2coding</a></td><td>r2coding</td></tr></tbody></table><blockquote><p>常看的博客网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>leimao</td><td><a href="https://leimao.github.io/">leimao</a></td><td>leimao</td></tr></tbody></table><blockquote><p>常用的资源网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>amz123</td><td><a href="https://www.amz123.com/tuku">leimao</a></td><td>amz123</td></tr></tbody></table>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
