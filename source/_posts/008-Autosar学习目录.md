@@ -57,3 +57,5 @@ tags:
 
 * [1]  AUTOSAR_EXP_AIUserGuide.pdf
 * [2]  AUTOSAR_EXP_LayeredSoftwareArchitecture.pdf
+* [3]  [如何快速学习AUTOSAR？](https://posts.careerengine.us/p/6211c83d544cc734d1e0bc92) 
+* [4]  [AUTOSAR-文档阅读](https://www.cnblogs.com/still-smile/p/12446970.html)

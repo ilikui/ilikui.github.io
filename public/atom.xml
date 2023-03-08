@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-03-08T03:09:06.612Z</updated>
+  <updated>2023-03-08T03:17:52.292Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
     <id>http://www.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
     <published>2023-03-07T08:45:07.000Z</published>
-    <updated>2023-03-08T03:09:06.612Z</updated>
+    <updated>2023-03-08T03:17:52.292Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Autosar相关的学习文档</p></blockquote><p><img src="/../images/20230307/2023030701.PNG"></p><span id="more"></span><blockquote><p>参考autosar版本  autosar4.3</p></blockquote><ul><li><a href="#0general">0.General</a></li><li><a href="#1application">1.Application</a></li><li><a href="#2runtime-environment">2.Runtime Environment</a></li><li><a href="#3system-services">3.System Services</a></li></ul><h1 id="0-General"><a href="#0-General" class="headerlink" title="0.General"></a>0.General</h1><h1 id="1-Application"><a href="#1-Application" class="headerlink" title="1.Application"></a>1.Application</h1><h1 id="2-Runtime-Environment"><a href="#2-Runtime-Environment" class="headerlink" title="2.Runtime Environment"></a>2.Runtime Environment</h1><h1 id="3-System-Services"><a href="#3-System-Services" class="headerlink" title="3.System Services"></a>3.System Services</h1><blockquote><p>参考文档</p></blockquote><ul><li>[1]  AUTOSAR_EXP_AIUserGuide.pdf</li><li>[2]  AUTOSAR_EXP_LayeredSoftwareArchitecture.pdf</li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Autosar相关的学习文档</p></blockquote><p><img src="/../images/20230307/2023030701.PNG"></p><span id="more"></span><blockquote><p>参考autosar版本  autosar4.3</p></blockquote><ul><li><a href="#0general">0.General</a></li><li><a href="#1application">1.Application</a></li><li><a href="#2runtime-environment">2.Runtime Environment</a></li><li><a href="#3system-services">3.System Services</a></li></ul><h1 id="0-General"><a href="#0-General" class="headerlink" title="0.General"></a>0.General</h1><h1 id="1-Application"><a href="#1-Application" class="headerlink" title="1.Application"></a>1.Application</h1><h1 id="2-Runtime-Environment"><a href="#2-Runtime-Environment" class="headerlink" title="2.Runtime Environment"></a>2.Runtime Environment</h1><h1 id="3-System-Services"><a href="#3-System-Services" class="headerlink" title="3.System Services"></a>3.System Services</h1><blockquote><p>参考文档</p></blockquote><ul><li>[1]  AUTOSAR_EXP_AIUserGuide.pdf</li><li>[2]  AUTOSAR_EXP_LayeredSoftwareArchitecture.pdf</li><li>[3]  <a href="https://posts.careerengine.us/p/6211c83d544cc734d1e0bc92">如何快速学习AUTOSAR？</a> </li><li>[4]  <a href="https://www.cnblogs.com/still-smile/p/12446970.html">AUTOSAR-文档阅读</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
