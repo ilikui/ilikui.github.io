@@ -10,3 +10,50 @@ tags:
 ![](../images/20230307/2023030701.PNG)
 
 <!--more-->
+
+> 参考autosar版本  autosar4.3
+
+- [0.General](#0general)
+- [1.Application](#1application)
+- [2.Runtime Environment](#2runtime-environment)
+- [3.System Services](#3system-services)
+
+
+# 0.General
+
+
+
+
+
+# 1.Application
+
+
+
+
+
+# 2.Runtime Environment
+
+
+
+
+# 3.System Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> 参考文档
+
+* [1]  AUTOSAR_EXP_AIUserGuide.pdf
+* [2]  AUTOSAR_EXP_LayeredSoftwareArchitecture.pdf
