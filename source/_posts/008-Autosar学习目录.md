@@ -21,6 +21,25 @@ tags:
 
 # 0.General
 
+> 术语列表
+
+
+
+
+| Abbreviation | Meaning                                 | Comment |
+| ------------ | --------------------------------------- | ------- |
+| .arxml       | Autosar Extensible Markup Language File |         |
+| AI Table     | Application Interface Table             |         |
+| Bugzilla     | Tool for change request management      |         |
+| CPU          | Central Processing Unit                 |         |
+| ECU          | Electronic Control Unit                 |         |
+| Excel        | Microsoft spreadsheet-application       |         |
+| MS           | Milestone                               |         |
+| RTE          | Run-Time Environment                    |         |
+| SPEM         | Software Process Engineering meta-model |         |
+| SVN          | Subversion (version control system)     |         |
+| SW-C         | SoftwareComponent                       |         |
+
 
 
 
