@@ -18,6 +18,7 @@ tags:
   - [1.1 BodyAndComfort](#11-bodyandcomfort)
     - [1.1.1 术语表](#111-术语表)
     - [1.1.2 逻辑分解图](#112-逻辑分解图)
+    - [1.1.3 功能描述](#113-功能描述)
   - [1.2 HMI](#12-hmi)
   - [1.3 Chassis](#13-chassis)
   - [1.4 Powertrain](#14-powertrain)
@@ -98,6 +99,25 @@ tags:
 
 
 
+### 1.1.3 功能描述
+
+* Wiper/Washer
+* Mirror Adjustment & Tinting
+* Interior Light
+* Seat Adjustment
+* Central Locking
+* Exterior Light
+* Antitheft Warning System
+* Horn
+* Defrost Control
+* Terminal Clamp Control
+* Immobilizer
+* Seat Climatization
+* PASE (PASsive Entry)
+* RKE (Remote Keyless Entry)
+* Convertible Control
+* BodySensors
+* KeyPad
 
 
 ## 1.2 HMI
