@@ -44,11 +44,14 @@ tags:
 | SPEM         | Software Process Engineering meta-model |         |
 | SVN          | Subversion (version control system)     |         |
 | SW-C         | SoftwareComponent                       |         |
-
-
-
-
-
+| SWC          | SoftwareComponent                       |         |
+| SW           | Software                                |         |
+| VB           | Visual Basic                            |         |
+| VFB          | Virtual Function Bus                    |         |
+| WP           | Work package                            |         |
+| XML          | Extensible Markup Language              |         |
+| XSD          | XML Schema Definition                   |         |
+| HMI          | Human Machine Interface                 |         |
 # 1.Application
 
 
