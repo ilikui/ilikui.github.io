@@ -13,7 +13,7 @@ tags:
 
 > 参考autosar版本  ![](https://img.shields.io/badge/Autosar-4.3-brightgreen)
 
-:s
+
 - [0.General](#0general)
 - [1.Application](#1application)
   - [1.1 BodyAndComfort](#11-bodyandcomfort)
