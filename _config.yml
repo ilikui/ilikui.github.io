@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -69,13 +69,6 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
-
-# hexo-filter-emoji
-emoji:
-  enable: true
-  className: github-emoji
-  styles:
-  customEmojis:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

@@ -28,6 +28,4 @@ update wp_options set option_value='http://服务器ip(或域名)/wordpress' whe
 
 操作如下
 
-![](../images/20230128/Capture.JPG)
-
-
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230128/Capture.JPG?raw=true)

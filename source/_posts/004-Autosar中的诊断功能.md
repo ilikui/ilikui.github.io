@@ -10,6 +10,6 @@ tags: DID
 
 <!--more-->
 
-![](../images/20230131/2023013101.PNG)
 
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230131/2023013101.PNG?raw=true)
 

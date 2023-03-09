@@ -7,7 +7,7 @@ tags:
 
 > Autosar相关的学习文档
 
-![](../images/20230307/2023030701.PNG)
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230307/2023030701.PNG?raw=true)
 
 <!--more-->
 
@@ -96,7 +96,9 @@ tags:
 ### 1.1.2 逻辑分解图
 
 
-![](../images/20230307/2023030702.PNG)
+
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230307/2023030702.PNG?raw=true)
+
 
 
 

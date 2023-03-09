@@ -11,12 +11,10 @@ tags:
 
 
 
-
-
 <!--more-->
 
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230113/2023011302.JPG?raw=true)
 
-![](../images/20230113/2023011302.JPG)
 
 
 

@@ -9,7 +9,8 @@ tags:
 
 <!--more-->
 
-![](../images//20230111/matlab.JPG)
+![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230111/matlab.JPG?raw=true)
+
 
 * 使用 MATLAB
     * [MATLAB帮助文档](https://ww2.mathworks.cn/help/matlab/index.html?s_tid=hc_panel)
