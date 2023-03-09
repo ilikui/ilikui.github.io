@@ -70,6 +70,13 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# hexo-filter-emoji
+emoji:
+  enable: true
+  className: github-emoji
+  styles:
+  customEmojis:
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
