@@ -128,7 +128,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">14</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -239,12 +239,15 @@
 <li><a target="_blank" rel="noopener" href="http://www.ttlsa.com/news/how-to-reset-wordpress-password/">WordPress忘记密码的5种解决方法</a></li>
 </ul>
 <span id="more"></span>
+
 <ul>
 <li>控制台的登录 mysql数据</li>
 </ul>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p //然后输入密码</span><br><span class="line">use wordpressdb; //选中你自己网站对应的数据库。</span><br><span class="line">show tables;//显示该数据库所有表格。</span><br><span class="line">select * from wp_options where 1=1 limit 10;//查看数据库前10条记录</span><br><span class="line">update wp_options set option_value=&#x27;http://服务器ip(或域名)/wordpress&#x27; where option_name=&#x27;siteurl&#x27;;</span><br><span class="line">//（如果home也改了就也改回来）</span><br><span class="line">update wp_options set option_value=&#x27;http://服务器ip(或域名)/wordpress&#x27; where option_name=&#x27;home&#x27;;</span><br><span class="line">其实就是改变了wordpress url ，则wp_options表中的siteurl的值变化了，只要把它在修改过来就行。</span><br></pre></td></tr></table></figure>
+
+
 <p>操作如下</p>
-<p><img src="https://github.com/ilikui/ilikui.github.io/blob/master/images/20230128/Capture.JPG?raw=true" alt=""></p>
+<p><img src="https://github.com/ilikui/ilikui.github.io/blob/master/images/20230128/Capture.JPG?raw=true"></p>
 
     </div>
 
