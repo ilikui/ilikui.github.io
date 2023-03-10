@@ -8,8 +8,8 @@ tags:
 > Autosar相关的学习文档
 
 
+![](../images/20230307/2023030701.PNG)
 
-![](../../themes/next/source/images/images/20230307/2023030701.PNG)
 
 <!--more-->
 
@@ -98,10 +98,10 @@ tags:
 ### 1.1.2 逻辑分解图
 
 
-![](../../themes/next/source/images/images/20230307/2023030702.PNG)
 
 
 
+![](../images/20230307/2023030702.PNG)
 
 
 ### 1.1.3 功能描述
