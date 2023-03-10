@@ -857,6 +857,12 @@ local_search:
   preload: false
 
 
+# comment A
+
+marked:
+  prependRoot: true
+  postAsset: true
+
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.js.org/docs/third-party-services/chat-services
