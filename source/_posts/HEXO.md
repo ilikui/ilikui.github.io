@@ -13,11 +13,11 @@ tags:
 
 <!--more-->
 
-![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230113/2023011302.JPG?raw=true)
 
 
 
 
+![](../images/20230113/2023011302.JPG)
 
 * [hexo博客中如何插入图片](https://juejin.cn/post/6882619951857811469)
 * [hexo博客如何设置个人头像](https://blog.garryde.com/archives/50370.html)
@@ -26,4 +26,5 @@ tags:
 * [腾讯404](https://news.qq.com/404/)
 * [hexo 如何取消创建博客时，自动生成对应的文件夹](https://blog.csdn.net/Hodors/article/details/111033680)
 * [解决 Hexo 搭建博客显示不出分类、标签问题](https://blog.csdn.net/Wonz5130/article/details/84666519)
+* [hexo文章中如何放入图片?](https://www.zhihu.com/question/419663130)
 

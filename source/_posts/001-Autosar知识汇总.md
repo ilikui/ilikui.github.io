@@ -9,7 +9,9 @@ tags:
 
 <!--more-->
 
-![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230111/2023011301.JPG?raw=true)
+
+
+![](../images/20230111/2023011301.JPG)
 
 ---
 

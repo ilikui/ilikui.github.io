@@ -11,7 +11,10 @@ tags: Program
 <!--more-->
 
 
-![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230203/2023020302.JPG?raw=true)
+
+
+
+![](../images/20230203/2023020302.PNG)
 
 
 1. 首先进入cmd页面

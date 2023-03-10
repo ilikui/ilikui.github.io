@@ -9,7 +9,8 @@ tags:
 
 <!--more-->
 
-![](https://github.com/ilikui/ilikui.github.io/blob/master/images/20230111/matlab.JPG?raw=true)
+
+![](../images/20230111/matlab.JPG)
 
 
 * 使用 MATLAB
