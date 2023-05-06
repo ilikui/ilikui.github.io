@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-05-06T04:46:19.057Z</updated>
+  <updated>2023-05-06T05:09:35.349Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://www.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     <id>http://www.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</id>
     <published>2023-05-06T04:27:11.000Z</published>
-    <updated>2023-05-06T04:46:19.057Z</updated>
+    <updated>2023-05-06T05:09:35.349Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>HTML 前端学习记录</p></blockquote><img src="../images/20230506/2023050601.PNG"  height ="50%" width="75%"/><span id="more"></span><blockquote><p>阅读记录</p></blockquote><table><thead><tr><th>书籍</th><th>地址</th><th>状态</th></tr></thead><tbody><tr><td><img src="https://img1.doubanio.com/view/subject/s/public/s28988547.jpg"></td><td><a href="https://book.douban.com/subject/25752357/">Head First HTML与CSS</a></td><td></td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>HTML 前端学习记录</p></blockquote><p><img src="/../images/20230506/2023050601.PNG"></p><span id="more"></span><blockquote><p>阅读记录</p></blockquote><table><thead><tr><th>书籍</th><th>地址</th><th>状态</th></tr></thead><tbody><tr><td>《[Head First HTML与CSS》</td><td><a href="https://book.douban.com/subject/25752357/">Head First HTML与CSS</a></td><td></td></tr></tbody></table>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;HTML 前端学习记录&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;img src=&quot;../images/20230506/2023050601.PNG&quot;  height =&quot;50%&quot; width=&quot;75%&quot;/&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;/../images/20230506/2023050601.PNG&quot;&gt;&lt;/p&gt;</summary>
     
     
     
