@@ -104,17 +104,34 @@ exclude:
 ignore:
 
 
-plugins:
-  - markdown-it-abbr
-  - markdown-it-footnote
-  - markdown-it-ins
-  - markdown-it-sub
-  - markdown-it-sup
-  - markdown-it-checkbox # 本行启用了checkbox插件
-  - markdown-it-emoji # 本行启用了emoji插件
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSide: 'left'
+    permalinkSymbol: ¶
 theme: next
 
 # Deployment
