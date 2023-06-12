@@ -6,7 +6,7 @@
   <link href="http://www.likui.info/atom.xml" rel="self"/>
   
   <link href="http://www.likui.info/"/>
-  <updated>2023-05-06T05:36:18.163Z</updated>
+  <updated>2023-06-12T10:20:55.608Z</updated>
   <id>http://www.likui.info/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>010 Makefile of learning</title>
+    <link href="http://www.likui.info/2023/06/12/010-Makefile-of-learning/"/>
+    <id>http://www.likui.info/2023/06/12/010-Makefile-of-learning/</id>
+    <published>2023-06-12T10:19:35.000Z</published>
+    <updated>2023-06-12T10:20:55.608Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Makefile学习总结</p></blockquote><span id="more"></span><h2 id="MakeFile学习总结"><a href="#MakeFile学习总结" class="headerlink" title="MakeFile学习总结"></a>MakeFile学习总结</h2>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Makefile学习总结&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Embed" scheme="http://www.likui.info/categories/Embed/"/>
+    
+    
+    <category term="makefile" scheme="http://www.likui.info/tags/makefile/"/>
+    
+  </entry>
   
   <entry>
     <title>009-HTML前端学习</title>
