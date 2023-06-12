@@ -68,7 +68,14 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  编程: programming
+  生活: life
+  阅读: reading
+  随想: thoughts
+  理财: finance
 tag_map:
+  敏捷开发: agile-development
+  环境搭建: environment-building
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -90,8 +97,10 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
+  - "source/css"
 exclude:
+   - "source/js"
 ignore:
 
 # Extensions
