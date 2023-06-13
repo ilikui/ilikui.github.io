@@ -2,7 +2,7 @@
 title: 007-Python中字符串的处理
 date: 2023-02-24 16:47:43
 categories:  Program
-tags:
+tags: python
 ---
 
 > Python中字符串的处理
