@@ -7,7 +7,7 @@ tags: npm
 
 > NPM 
 
-<!---more-->
+<!--more-->
 
 查看`安装`hexo 后安装的包
 
