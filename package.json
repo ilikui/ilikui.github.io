@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "hexo": "^6.3.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^2.0.0",
@@ -21,10 +22,13 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-markdown-it": "^7.1.0",
+    "hexo-renderer-marked": "^6.2.0",
+    "hexo-renderer-sass": "^0.5.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
+    "lodash": "^4.17.21",
     "markdown-it-emoji": "^2.0.2"
   }
 }
