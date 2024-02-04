@@ -109,7 +109,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-theme: yanstyle
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
