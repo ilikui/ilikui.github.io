@@ -13,6 +13,11 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+
+menu:
+  首页: /
+  关于: about.html
+
 url: https://www.likui.info
 permalink: /:year/:month/:day/:title/
 permalink_defaults:
@@ -109,7 +114,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-theme: cactus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
