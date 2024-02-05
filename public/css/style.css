@@ -2114,7 +2114,7 @@ pre code {
 }
 .highlight {
   font-family: "Menlo", monospace;
-  background: #3b3b3b;
+  background: #fff;
   -webkit-border-radius: 4px;
   border-radius: 7px;
   padding: 10px 15px;
