@@ -49,16 +49,16 @@ code:
 # 参数设置参考 giscus 官网：https://giscus.app
 giscus:
   js: https://giscus.app/client.js
-  repo: can-dy-jack/delicate
-  repoId: R_kgDOGVfGBw
+  repo: ilikui/ilikui.github.io
+  repoId: R_kgDOIGofwA
   category: General
-  categoryId: DIC_kwDOGVfGB84CQqqg
+  categoryId: DIC_kwDOIGofwM4Cc8xW
   mapping: pathname
   strict: 0
   reactionsEnabled: 1
-  emitMetadata: 0
+  emitMetadata: 1
   inputPosition: top
-  selfTheme: false # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
+  selfTheme: true # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
   theme: light
   lang: zh-CN
   loading: lazy
