@@ -3,11 +3,11 @@
   <title>Blog</title>
   
   
-  <link href="https://www.likui.info/atom.xml" rel="self"/>
+  <link href="https://blog.likui.info/atom.xml" rel="self"/>
   
-  <link href="https://www.likui.info/"/>
+  <link href="https://blog.likui.info/"/>
   <updated>2023-06-16T04:14:53.810Z</updated>
-  <id>https://www.likui.info/</id>
+  <id>https://blog.likui.info/</id>
   
   <author>
     <name>likui</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>011-NPM Hexo Package</title>
-    <link href="https://www.likui.info/2023/06/14/011-NPM-Hexo-Package/"/>
-    <id>https://www.likui.info/2023/06/14/011-NPM-Hexo-Package/</id>
+    <link href="https://blog.likui.info/2023/06/14/011-NPM-Hexo-Package/"/>
+    <id>https://blog.likui.info/2023/06/14/011-NPM-Hexo-Package/</id>
     <published>2023-06-13T23:34:04.000Z</published>
     <updated>2023-06-16T04:14:53.810Z</updated>
     
@@ -32,17 +32,17 @@
     
     
     
-    <category term="Web" scheme="https://www.likui.info/categories/Web/"/>
+    <category term="Web" scheme="https://blog.likui.info/categories/Web/"/>
     
     
-    <category term="npm" scheme="https://www.likui.info/tags/npm/"/>
+    <category term="npm" scheme="https://blog.likui.info/tags/npm/"/>
     
   </entry>
   
   <entry>
     <title>010 Makefile of learning</title>
-    <link href="https://www.likui.info/2023/06/12/010-Makefile-of-learning/"/>
-    <id>https://www.likui.info/2023/06/12/010-Makefile-of-learning/</id>
+    <link href="https://blog.likui.info/2023/06/12/010-Makefile-of-learning/"/>
+    <id>https://blog.likui.info/2023/06/12/010-Makefile-of-learning/</id>
     <published>2023-06-12T10:19:35.000Z</published>
     <updated>2023-06-16T04:08:44.317Z</updated>
     
@@ -55,17 +55,17 @@
     
     
     
-    <category term="Embed" scheme="https://www.likui.info/categories/Embed/"/>
+    <category term="Embed" scheme="https://blog.likui.info/categories/Embed/"/>
     
     
-    <category term="makefile" scheme="https://www.likui.info/tags/makefile/"/>
+    <category term="makefile" scheme="https://blog.likui.info/tags/makefile/"/>
     
   </entry>
   
   <entry>
     <title>009-HTML前端学习</title>
-    <link href="https://www.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
-    <id>https://www.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</id>
+    <link href="https://blog.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://blog.likui.info/2023/05/06/009-HTML%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</id>
     <published>2023-05-06T04:27:11.000Z</published>
     <updated>2023-05-06T05:36:18.163Z</updated>
     
@@ -79,17 +79,17 @@
     
     
     
-    <category term="Web" scheme="https://www.likui.info/categories/Web/"/>
+    <category term="Web" scheme="https://blog.likui.info/categories/Web/"/>
     
     
-    <category term="HTML" scheme="https://www.likui.info/tags/HTML/"/>
+    <category term="HTML" scheme="https://blog.likui.info/tags/HTML/"/>
     
   </entry>
   
   <entry>
     <title>008-Autosar学习目录</title>
-    <link href="https://www.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
-    <id>https://www.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
+    <link href="https://blog.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/"/>
+    <id>https://blog.likui.info/2023/03/07/008-Autosar%E5%AD%A6%E4%B9%A0%E7%9B%AE%E5%BD%95/</id>
     <published>2023-03-07T08:45:07.000Z</published>
     <updated>2023-03-13T00:57:00.576Z</updated>
     
@@ -103,15 +103,15 @@
     
     
     
-    <category term="Autosar" scheme="https://www.likui.info/categories/Autosar/"/>
+    <category term="Autosar" scheme="https://blog.likui.info/categories/Autosar/"/>
     
     
   </entry>
   
   <entry>
     <title>007-Python中字符串的处理</title>
-    <link href="https://www.likui.info/2023/02/24/007-Python%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/"/>
-    <id>https://www.likui.info/2023/02/24/007-Python%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/</id>
+    <link href="https://blog.likui.info/2023/02/24/007-Python%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/"/>
+    <id>https://blog.likui.info/2023/02/24/007-Python%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%A4%84%E7%90%86/</id>
     <published>2023-02-24T08:47:43.000Z</published>
     <updated>2023-06-16T04:08:44.316Z</updated>
     
@@ -124,17 +124,17 @@
     
     
     
-    <category term="Program" scheme="https://www.likui.info/categories/Program/"/>
+    <category term="Program" scheme="https://blog.likui.info/categories/Program/"/>
     
     
-    <category term="python" scheme="https://www.likui.info/tags/python/"/>
+    <category term="python" scheme="https://blog.likui.info/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>006-Windos用控制台关闭某个程序</title>
-    <link href="https://www.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
-    <id>https://www.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/</id>
+    <link href="https://blog.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
+    <id>https://blog.likui.info/2023/02/03/006-Windos%E7%94%A8%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%85%B3%E9%97%AD%E6%9F%90%E4%B8%AA%E7%A8%8B%E5%BA%8F/</id>
     <published>2023-02-03T02:01:59.000Z</published>
     <updated>2023-03-10T05:41:28.653Z</updated>
     
@@ -147,17 +147,17 @@
     
     
     
-    <category term="Windows" scheme="https://www.likui.info/categories/Windows/"/>
+    <category term="Windows" scheme="https://blog.likui.info/categories/Windows/"/>
     
     
-    <category term="Program" scheme="https://www.likui.info/tags/Program/"/>
+    <category term="Program" scheme="https://blog.likui.info/tags/Program/"/>
     
   </entry>
   
   <entry>
     <title>005-如何理解autosar中定义一些宏代码</title>
-    <link href="https://www.likui.info/2023/02/01/005-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3autosar%E4%B8%AD%E5%AE%9A%E4%B9%89%E4%B8%80%E4%BA%9B%E5%AE%8F%E4%BB%A3%E7%A0%81/"/>
-    <id>https://www.likui.info/2023/02/01/005-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3autosar%E4%B8%AD%E5%AE%9A%E4%B9%89%E4%B8%80%E4%BA%9B%E5%AE%8F%E4%BB%A3%E7%A0%81/</id>
+    <link href="https://blog.likui.info/2023/02/01/005-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3autosar%E4%B8%AD%E5%AE%9A%E4%B9%89%E4%B8%80%E4%BA%9B%E5%AE%8F%E4%BB%A3%E7%A0%81/"/>
+    <id>https://blog.likui.info/2023/02/01/005-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3autosar%E4%B8%AD%E5%AE%9A%E4%B9%89%E4%B8%80%E4%BA%9B%E5%AE%8F%E4%BB%A3%E7%A0%81/</id>
     <published>2023-02-01T01:48:24.000Z</published>
     <updated>2023-02-01T01:58:40.883Z</updated>
     
@@ -170,17 +170,17 @@
     
     
     
-    <category term="Autosar" scheme="https://www.likui.info/categories/Autosar/"/>
+    <category term="Autosar" scheme="https://blog.likui.info/categories/Autosar/"/>
     
     
-    <category term="Code" scheme="https://www.likui.info/tags/Code/"/>
+    <category term="Code" scheme="https://blog.likui.info/tags/Code/"/>
     
   </entry>
   
   <entry>
     <title>004-Autosar中的诊断功能</title>
-    <link href="https://www.likui.info/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/"/>
-    <id>https://www.likui.info/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/</id>
+    <link href="https://blog.likui.info/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/"/>
+    <id>https://blog.likui.info/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/</id>
     <published>2023-01-31T06:05:23.000Z</published>
     <updated>2023-03-10T05:40:50.665Z</updated>
     
@@ -193,17 +193,17 @@
     
     
     
-    <category term="Autosar" scheme="https://www.likui.info/categories/Autosar/"/>
+    <category term="Autosar" scheme="https://blog.likui.info/categories/Autosar/"/>
     
     
-    <category term="DID" scheme="https://www.likui.info/tags/DID/"/>
+    <category term="DID" scheme="https://blog.likui.info/tags/DID/"/>
     
   </entry>
   
   <entry>
     <title>003-自动驾驶使用的操作系统</title>
-    <link href="https://www.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://www.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <link href="https://blog.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://blog.likui.info/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
     <published>2023-01-30T02:03:00.000Z</published>
     <updated>2023-03-10T05:40:15.471Z</updated>
     
@@ -216,15 +216,15 @@
     
     
     
-    <category term="OS" scheme="https://www.likui.info/categories/OS/"/>
+    <category term="OS" scheme="https://blog.likui.info/categories/OS/"/>
     
     
   </entry>
   
   <entry>
     <title>002-Wordpress更换IP地址后样式错乱</title>
-    <link href="https://www.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/"/>
-    <id>https://www.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/</id>
+    <link href="https://blog.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/"/>
+    <id>https://blog.likui.info/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/</id>
     <published>2023-01-28T01:47:56.000Z</published>
     <updated>2023-03-09T08:15:36.338Z</updated>
     
@@ -241,15 +241,15 @@
     
     
     
-    <category term="Website" scheme="https://www.likui.info/categories/Website/"/>
+    <category term="Website" scheme="https://blog.likui.info/categories/Website/"/>
     
     
   </entry>
   
   <entry>
     <title>001 Autosar知识汇总</title>
-    <link href="https://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
-    <id>https://www.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</id>
+    <link href="https://blog.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
+    <id>https://blog.likui.info/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</id>
     <published>2023-01-13T05:31:52.000Z</published>
     <updated>2023-03-10T05:48:27.340Z</updated>
     
@@ -262,15 +262,15 @@
     
     
     
-    <category term="Autosar" scheme="https://www.likui.info/categories/Autosar/"/>
+    <category term="Autosar" scheme="https://blog.likui.info/categories/Autosar/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.likui.info/2023/01/13/hello-world/"/>
-    <id>https://www.likui.info/2023/01/13/hello-world/</id>
+    <link href="https://blog.likui.info/2023/01/13/hello-world/"/>
+    <id>https://blog.likui.info/2023/01/13/hello-world/</id>
     <published>2023-01-13T01:25:45.213Z</published>
     <updated>2023-01-13T01:25:45.213Z</updated>
     
@@ -286,8 +286,8 @@
   
   <entry>
     <title>第二篇博客</title>
-    <link href="https://www.likui.info/2023/01/12/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://www.likui.info/2023/01/12/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://blog.likui.info/2023/01/12/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://blog.likui.info/2023/01/12/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-01-12T11:49:25.000Z</published>
     <updated>2023-01-13T07:01:54.686Z</updated>
     
@@ -300,15 +300,15 @@
     
     
     
-    <category term="Blog" scheme="https://www.likui.info/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.likui.info/categories/Blog/"/>
     
     
   </entry>
   
   <entry>
     <title>相关网站推荐</title>
-    <link href="https://www.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
-    <id>https://www.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
+    <link href="https://blog.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+    <id>https://blog.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
     <published>2023-01-12T05:15:27.000Z</published>
     <updated>2023-03-10T05:43:08.888Z</updated>
     
@@ -321,15 +321,15 @@
     
     
     
-    <category term="Website" scheme="https://www.likui.info/categories/Website/"/>
+    <category term="Website" scheme="https://blog.likui.info/categories/Website/"/>
     
     
   </entry>
   
   <entry>
     <title>Matlab帮助文档</title>
-    <link href="https://www.likui.info/2023/01/12/Matlab%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/"/>
-    <id>https://www.likui.info/2023/01/12/Matlab%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</id>
+    <link href="https://blog.likui.info/2023/01/12/Matlab%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/"/>
+    <id>https://blog.likui.info/2023/01/12/Matlab%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/</id>
     <published>2023-01-12T02:42:54.000Z</published>
     <updated>2023-03-10T05:42:36.908Z</updated>
     
@@ -342,15 +342,15 @@
     
     
     
-    <category term="Matlab" scheme="https://www.likui.info/categories/Matlab/"/>
+    <category term="Matlab" scheme="https://blog.likui.info/categories/Matlab/"/>
     
     
   </entry>
   
   <entry>
     <title>第一篇文章</title>
-    <link href="https://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://www.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://blog.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://blog.likui.info/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2023-01-11T09:04:33.000Z</published>
     <updated>2023-03-10T05:44:25.853Z</updated>
     
@@ -363,15 +363,15 @@
     
     
     
-    <category term="Blog" scheme="https://www.likui.info/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.likui.info/categories/Blog/"/>
     
     
   </entry>
   
   <entry>
     <title>HEXO</title>
-    <link href="https://www.likui.info/2023/01/10/HEXO/"/>
-    <id>https://www.likui.info/2023/01/10/HEXO/</id>
+    <link href="https://blog.likui.info/2023/01/10/HEXO/"/>
+    <id>https://blog.likui.info/2023/01/10/HEXO/</id>
     <published>2023-01-10T02:59:47.000Z</published>
     <updated>2023-03-10T05:52:33.783Z</updated>
     
@@ -384,7 +384,7 @@
     
     
     
-    <category term="Blog" scheme="https://www.likui.info/categories/Blog/"/>
+    <category term="Blog" scheme="https://blog.likui.info/categories/Blog/"/>
     
     
   </entry>

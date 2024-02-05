@@ -18,7 +18,7 @@ menu:
   首页: /
   关于: about.html
 
-url: https://www.likui.info
+url: https://blog.likui.info
 permalink: /:year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
