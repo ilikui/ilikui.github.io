@@ -1,0 +1,38 @@
+{
+  "name": "hexo-theme-delicate",
+  "version": "4.0.1",
+  "description": "simple but delicate theme for Hexo",
+  "main": "package.js",
+  "files": [
+    "languages",
+    "layout",
+    "scripts",
+    "source",
+    "_config.yml"
+  ],
+  "scripts": {
+    "cl": "hexo cl",
+    "g": "hexo g",
+    "d": "hexo d"
+  },
+  "repository": "can-dy-jack/hexo-theme-delicate",
+  "author": "can-dy-jack (https://github.com/can-dy-jack)",
+  "keywords": [
+    "hexo",
+    "theme",
+    "delicate",
+    "simple",
+    "hexo-delicate",
+    "giscus",
+    "mathjax",
+    "katex"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/can-dy-jack/hexo-theme-delicate/issues"
+  },
+  "homepage": "https://kartjim.cn/delicate",
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}

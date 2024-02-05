@@ -1,0 +1,86 @@
+### ----------------------------------------------------
+#  通用配置
+### ----------------------------------------------------
+# 右上角github地址
+github: https://github.com/can-dy-jack/hexo-theme-delicate
+# 主题颜色
+color: "#2eacd2"
+# 页面slogan
+poem: "长风破浪会有时，直挂云帆济沧海"
+# email 地址
+email: jjack_chen3@163.com
+# archive line color
+archiveLineColor: "#dedede"
+# tags color
+tagColor: "#2323ef"
+# categories color
+categoryColor: "#23ef23"
+
+### ----------------------------------------------------
+#  首页配置
+### ----------------------------------------------------
+# 首页图片地址
+imgURL: imgs/beach.jpg
+index:
+  links: 
+    archive: /archives/
+    tags: /tags/
+    categories: /categories/
+    关于我: /about/
+
+### ----------------------------------------------------
+#  markdown配置
+### ----------------------------------------------------
+code:
+  # 需要先在根配置文件里开启highlight
+  highlight:
+    bg: "#fdf6e3"
+    color: "#586e75"
+  prismjs:
+    bg: "#fff"
+    color: "#000"
+  # 代码块是否显示边框线
+  border: true
+
+### ----------------------------------------------------
+#  评论配置
+### ----------------------------------------------------
+# 参数设置参考 giscus 官网：https://giscus.app
+giscus:
+  js: https://giscus.app/client.js
+  repo: can-dy-jack/delicate
+  repoId: R_kgDOGVfGBw
+  category: General
+  categoryId: DIC_kwDOGVfGB84CQqqg
+  mapping: pathname
+  strict: 0
+  reactionsEnabled: 1
+  emitMetadata: 0
+  inputPosition: top
+  selfTheme: false # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
+  theme: light
+  lang: zh-CN
+  loading: lazy
+
+### ----------------------------------------------------
+#  CDN
+### ----------------------------------------------------
+CDN:
+  # icon
+  fontawesome: https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css
+
+  # 需要在根配置文件里开启highlight，并在本文件里开启highlight
+  ## 需要自己根据CDN内的文件进行根目录下和主题下的 highlight 相关配置。例如 hljs、bg等
+  highlight: https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-light.css
+  # highlight: https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-dark.css
+  prismjs: https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css
+
+  # mathjax
+  mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+
+  # katex
+  katexStyle: https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css
+  katexJS: 
+    - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.js
+    - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/contrib/auto-render.min.js
+

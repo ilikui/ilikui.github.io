@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="<%- config.language %>">
+
+<%- include('partial/head') %>
+
+<body id="delicate-app">
+    <main>
+        <div class="container">
+            <section class="page-top-badge flex-between w100">
+                <div>
+                    <a href="<%- url_for("/") %>">
+                        <span title="github"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <!-- <div>
+                    <%# partial("component/switchModeBtn") %>
+                </div> -->
+            </section>
+            <%- body %>
+            <section class="article-bottom flex-between">
+                <div class="flex-center">
+                    <%- image_tag('imgs/logo.png', {
+                        class: 'logo'
+                    }) %>
+                    <span><%- theme.poem %></span>
+                </div>
+                <div class="flex-center">
+                    <a href="mailto:<%- theme.email %>">
+                        <span title="envelope">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a href="<%- theme.github %>">
+                        <span title="github" style="font-size: 18px;">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <%- include('component/toTop') %>
+
+    <footer>
+        <%- include('partial/footer') %>
+    </footer>
+
+    <%- include('partial/foot') %>
+</body>
+
+</html>

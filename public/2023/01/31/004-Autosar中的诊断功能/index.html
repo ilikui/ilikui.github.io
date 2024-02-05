@@ -1,58 +1,197 @@
-extends base
+<!DOCTYPE html>
 
-block title
-  title= page.title + ' | ' + config.title
+<html lang="en">
 
-block content
-  .post
-    h1.post-title= page.title
-    .post-meta= page.date.format(config.date_format)
-      if page.categories.length > 0
-        span= ' | '
-        span.category
-          for category in page.categories.toArray()
-            a(href=url_for(category.path))= category.name
-      if theme.busuanzi == true
-        script(src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
-        span#busuanzi_container_page_pv= ' | '
-          span#busuanzi_value_page_pv
-          span= ' ' + __('Hits')
-      if theme.wordcount == true
-        include _partial/wordcount.pug
-    if theme.disqus.enable == true
-      a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')
-    if theme.changyan
-      a.ds-thread-count(href=url_for(page.path) + '#SOHUCS')
-        span#changyan_count_unit(style='font-size: 15px; color: #6E7173;') 0
-        span= ' ' + __('Comment')
-      script(src='https://assets.changyan.sohu.com/upload/plugins/plugins.count.js', async)
-    if theme.valine.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#vcomment')
-        span.valine-comment-count(data-xid=url_for(page.path))
-        span= ' ' + __('Comment')
-    if theme.waline.enable == true
-      a.disqus-comment-count(href=url_for(page.path) + '#waline')
-        span.waline-comment-count(id=url_for(page.path))
-        span= ' ' + __('Comment')
-    if page.toc
-      .clear
-        #toc.toc-article
-          .toc-title= __('contents')
-          != toc(page.content, {list_number: theme.toc_number})
-    .post-content
-      != page.content
-    if theme.donate.enable == true && page.donate != false
-      include _widget/donate.pug
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | 004-Autosar中的诊断功能</title>
 
-    if theme.post_copyright.enable == true && page.copyright != false
-      include _widget/copyright.pug
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="likui">
 
-    if theme.shareto == true
-      script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
-      a.article-share-link(data-url=page.permalink, data-id=page._id, data-qrcode=qrcode(page.permalink))= __('shareto')
+    <meta name="color-scheme" content="light dark">
 
-    include _partial/tag.pug
-    include _partial/post_nav.pug
+    
+    
+<link rel="stylesheet" href="/styles/index.css">
 
-    if page.comments
-      include _partial/comments.pug
+    
+    <link rel="shortcut icon" href="/imgs/logo.png">
+
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-light.css">
+    
+
+    
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
+</head>
+
+
+<body id="delicate-app">
+    <main>
+        <div class="container">
+            <section class="page-top-badge flex-between w100">
+                <div>
+                    <a href="/">
+                        <span title="github"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <!-- <div>
+                    
+                </div> -->
+            </section>
+            <aside class="toc-container">
+    <!-- sticky toc -->
+    
+</aside>
+
+<article class="markdown-container">
+    <section>
+        <h1>
+            <span>
+                004-Autosar中的诊断功能
+            </span>
+        
+            <div class="post-info">
+                <span></span>
+                <span>
+                    0k字 • 
+                    0分钟
+                </span>
+            </div>
+        </h1>
+    </section>
+
+    <section class="article">
+        <blockquote>
+<p>Autosar中DID的相关功能</p>
+</blockquote>
+<span id="more"></span>
+<p><img src="../images/20230131/2023013101.PNG" alt=""></p>
+
+    </section>
+
+    
+        <section class="post-tag">
+            <a href="/tags"><i class="fa fa-tags"></i></a>
+            
+                <a href="/tags/DID/" class="tag-item">
+                    DID
+                </a>
+            
+        </section>
+    
+    
+        <section class="post-cate">
+            <a href="/categories"><i class="fa fa-inbox"></i></a>
+            
+                <a href="/categories/Autosar/" class="cate-item">
+                    Autosar
+                </a>
+            
+        </section>
+    
+
+    <section class="post-cc">
+        <div class="post-cc-author">
+            <span class="bold">作者：</span><a href="mailto:jjack_chen3@163.com" title="likui">likui</a>
+        </div>
+        <div class="post-cc-link">
+            <span class="bold">链接：</span><a href="/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/">https://blog.likui.info/2023/01/31/004-Autosar中的诊断功能/</a>
+        </div>
+        <div class="post-cc-source">
+            <span class="bold">来源：</span><a href="/">Blog</a>
+        </div>
+        <div class="ppost-cc-declare">
+            <span class="bold">版权声明: </span>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 许可协议。著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 
+        </div>
+    </section>
+
+    <section class="flex-between" style="margin: 20px 0;">
+        <div class="pre">
+            
+                <a href="/2023/02/01/005-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3autosar%E4%B8%AD%E5%AE%9A%E4%B9%89%E4%B8%80%E4%BA%9B%E5%AE%8F%E4%BB%A3%E7%A0%81/" class="change-link">
+                    <span class="icon"><i class="fa fa-angle-double-left"></i></span>
+                    <span class="text">
+                        <span class="identify">上一篇</span>
+                        <span class="text-title">005-如何理解autosar中定义一些宏代码</span>
+                    </span>
+                </a>
+            
+        </div>
+        <div class="next">
+            
+                <a href="/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" class="change-link">
+                    <span class="text">
+                        <span class="identify" style="text-align: right;">下一篇</span>
+                        <span class="text-title" style="text-align: right;">003-自动驾驶使用的操作系统</span>
+                    </span>
+                    <span class="icon"><i class="fa fa-angle-double-right"></i></span>
+                </a>
+            
+        </div>
+    </section>
+
+    <!-- comment -->
+    <section class="comment-container">
+        <!-- giscus -->
+        
+    </section>
+</article>
+
+
+
+
+            <section class="article-bottom flex-between">
+                <div class="flex-center">
+                    <img src="/imgs/logo.png" class="logo">
+                    <span>长风破浪会有时，直挂云帆济沧海</span>
+                </div>
+                <div class="flex-center">
+                    <a href="mailto:jjack_chen3@163.com">
+                        <span title="envelope">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">
+                        <span title="github" style="font-size: 18px;">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="to-top">
+    <a href="javascript: void(0)" onclick="delicate.toTop()">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <footer>
+        <div class="footer-info gray">
+    <div>
+        <span><a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">Delicate</a> theme designed with ❤️ by <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack">can-dy-jack</a></span>
+    </div>
+    <div>
+        <span>Copyright Ⓒ 2024. All rights reserved.</span>
+    </div>
+</div>
+    </footer>
+
+    
+
+
+<script src="/js/index.js"></script>
+
+
+</body>
+
+</html>

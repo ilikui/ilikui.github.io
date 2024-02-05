@@ -1,0 +1,174 @@
+.read-more
+    outline none
+    padding 5px 10px
+    cursor pointer
+    border-radius 5px
+    transition all 300ms ease
+    display inline-block
+    font-size 14px
+    font-weight bold
+    text-decoration none
+    background-color var(--container-bg)
+    border 2px solid $color
+    box-shadow 3px 3px 0 $color
+    scale: 0.9
+    a 
+        color $color
+        text-decoration none
+    &:hover
+        scale 1
+    &:active
+        box-shadow none
+        transform translateY(3px)
+
+.description
+    color gray
+
+nav
+    text-align end
+
+.index-title, .index-article, nav 
+    margin 0 50px
+
+.article-bottom
+    border-top 1px solid #cecece
+    padding 10px 50px
+    position absolute
+    bottom 20px
+    left 0
+    width 100%
+    box-sizing border-box
+
+.post-cc
+    background rgba(245, 185, 32, 0.1)
+    font-size 0.9rem
+    padding 20px
+    margin 20px 0
+    border-radius 5px
+    .bold
+        font-weight 600
+
+
+.article-list
+    .article-item
+        margin 40px 0
+        .article-item-title
+            margin: 0.2em 0
+        h1
+            margin 0
+            font-weight 600
+            font-size 2em
+            text-align center
+        .info
+            text-align center
+            color gray
+            font-size 0.8rem
+
+.post-tag
+    margin 40px 0 10px 0
+    display flex
+    flex-wrap wrap
+    gap 23px
+    a
+        color $tag-color
+    .tag-item
+        background rgba($tag-color, .1)
+        position relative
+        display inline-block
+        height 26px
+        line-height 26px
+        padding 0 10px 0 5px
+        // margin-right 13px
+        &::before
+            content ""
+            position absolute
+            top 0
+            left -26px
+            width 0
+            height 0
+            background transparent
+            border 13px solid transparent
+            transition 260ms
+            border-right 13px solid rgba($tag-color, .1)
+        &:hover
+            background rgba($tag-color, .2)
+            &::before
+                border-right-color rgba($tag-color, .2)
+
+.post-cate
+    margin 10px 0 40px 0
+    display flex
+    flex-wrap wrap
+    gap 13px
+    a
+        color $cate-color
+    :first-child
+        margin-right 5px
+    .cate-item
+        background rgba($cate-color, .1)
+        position relative
+        display inline-block
+        height 26px
+        line-height 26px
+        padding 0 10px 0 18px
+        transform translateX(-8px)
+        &::before
+            content ""
+            position absolute
+            top 0
+            left 0
+            width 0
+            height 0
+            background transparent
+            border 13px solid transparent
+            border-left 13px solid #fbf4e2
+        &::after
+            content ""
+            position absolute
+            top 0
+            right -26px
+            width 0
+            height 0
+            background transparent
+            border 13px solid transparent
+            transition 260ms
+            border-left 13px solid rgba($cate-color, .1)
+        &:hover
+            background rgba($cate-color, .2)
+            &::after
+                border-left-color rgba($cate-color, .2)
+
+.toc-container
+    position sticky
+    top 20px
+    left 100%
+    transform translateX(calc(100% + 15px))
+    width calc((100vw - 100%) / 2 - 30px)
+    z-index 10
+    height 0
+    .toc
+        height fit-content
+        line-height 1.3
+        font-size 0.9rem
+        max-height 90vh
+        overflow-y auto
+        .toc-child
+            padding-left 10px
+        .toc-link
+            display inline-block
+            max-width 100%
+            text-overflow ellipsis
+            overflow hidden
+            white-space nowrap
+            &::after
+                content attr(title)
+        a
+            color #c4c4c4
+            &:hover
+                color $color !important
+        &:hover a
+            color gray
+    ul, ol
+        list-style none
+        padding-left 0
+

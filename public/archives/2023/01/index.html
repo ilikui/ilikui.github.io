@@ -1,24 +1,216 @@
-extends base
+<!DOCTYPE html>
 
-block title
-  if page.category
-    title= page.category + ' | ' + config.title
-  if page.tag
-    title= page.tag + ' | ' + config.title
-  if page.archive
-    title= __('archive') + ' | ' + config.title
-block content
-  if page.category || page.tag
-    h1.label-title=  __('reading_label', page.category || page.tag)
-  .post
-    .post-archive
-      - var allposts = page.posts.toArray().reduce((r, v, i, a, k = -v.date.format('YYYY')) => ((r[k] || (r[k] = [])).push(v), r), {})
-      each posts, year in allposts
-        h2= -year
-        ul.listing
-          for post in posts
-            li
-              span.date= post.date.format(config.date_format)
-              a(href=url_for(post.path), title=post.title)
-                +title(post)
-  include _partial/paginator.pug
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | archive</title>
+
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="likui">
+
+    <meta name="color-scheme" content="light dark">
+
+    
+    
+<link rel="stylesheet" href="/styles/index.css">
+
+    
+    <link rel="shortcut icon" href="/imgs/logo.png">
+
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-light.css">
+    
+
+    
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
+</head>
+
+
+<body id="delicate-app">
+    <main>
+        <div class="container">
+            <section class="page-top-badge flex-between w100">
+                <div>
+                    <a href="/">
+                        <span title="github"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <!-- <div>
+                    
+                </div> -->
+            </section>
+            
+
+<section class="archive">
+    <article class="archive-list">
+        <section class="year-group">
+            <span class="circle"></span>
+            <span>2023 年</span>
+        </section>
+        <div class="month-group">1 月</div>
+        
+            
+            
+            <a href="/2023/01/31/004-Autosar%E4%B8%AD%E7%9A%84%E8%AF%8A%E6%96%AD%E5%8A%9F%E8%83%BD/" class="post-item">
+                <div class="flex-between">
+                    <span>004-Autosar中的诊断功能</span>
+                    <span>2023-01-31</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" class="post-item">
+                <div class="flex-between">
+                    <span>003-自动驾驶使用的操作系统</span>
+                    <span>2023-01-30</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/" class="post-item">
+                <div class="flex-between">
+                    <span>002-Wordpress更换IP地址后样式错乱</span>
+                    <span>2023-01-28</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/" class="post-item">
+                <div class="flex-between">
+                    <span>001 Autosar知识汇总</span>
+                    <span>2023-01-13</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/13/hello-world/" class="post-item">
+                <div class="flex-between">
+                    <span>Hello World</span>
+                    <span>2023-01-13</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/12/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="post-item">
+                <div class="flex-between">
+                    <span>第二篇博客</span>
+                    <span>2023-01-12</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/" class="post-item">
+                <div class="flex-between">
+                    <span>相关网站推荐</span>
+                    <span>2023-01-12</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/12/Matlab%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3/" class="post-item">
+                <div class="flex-between">
+                    <span>Matlab帮助文档</span>
+                    <span>2023-01-12</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="post-item">
+                <div class="flex-between">
+                    <span>第一篇文章</span>
+                    <span>2023-01-11</span>
+                </div>
+            </a>
+            
+        
+            
+            
+            <a href="/2023/01/10/HEXO/" class="post-item">
+                <div class="flex-between">
+                    <span>HEXO</span>
+                    <span>2023-01-10</span>
+                </div>
+            </a>
+            
+        
+    </article>
+
+    <div class="pagination">
+    <div class="paginator">
+        <span class="page-number current">1</span>
+    </div>
+    <div class="paginator-info">
+        <span class="gray">17 articles in total</span>
+    </div>
+</div>
+</section>
+            <section class="article-bottom flex-between">
+                <div class="flex-center">
+                    <img src="/imgs/logo.png" class="logo">
+                    <span>长风破浪会有时，直挂云帆济沧海</span>
+                </div>
+                <div class="flex-center">
+                    <a href="mailto:jjack_chen3@163.com">
+                        <span title="envelope">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">
+                        <span title="github" style="font-size: 18px;">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="to-top">
+    <a href="javascript: void(0)" onclick="delicate.toTop()">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <footer>
+        <div class="footer-info gray">
+    <div>
+        <span><a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">Delicate</a> theme designed with ❤️ by <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack">can-dy-jack</a></span>
+    </div>
+    <div>
+        <span>Copyright Ⓒ 2024. All rights reserved.</span>
+    </div>
+</div>
+    </footer>
+
+    
+
+
+<script src="/js/index.js"></script>
+
+
+</body>
+
+</html>

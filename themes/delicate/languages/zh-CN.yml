@@ -1,0 +1,12 @@
+# paginator
+paginator:
+  total: "共%d篇文章"
+
+# index
+home: 首页
+archive: 存档
+tag: 标签
+tags: 标签云
+categories: 分类
+category: 分类
+
