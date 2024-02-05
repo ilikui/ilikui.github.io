@@ -2,13 +2,13 @@
 #  通用配置
 ### ----------------------------------------------------
 # 右上角github地址
-github: https://github.com/can-dy-jack/hexo-theme-delicate
+github: https://github.com/ilikui
 # 主题颜色
 color: "#2eacd2"
 # 页面slogan
 poem: "长风破浪会有时，直挂云帆济沧海"
 # email 地址
-email: jjack_chen3@163.com
+email: vlikuiv@163.com
 # archive line color
 archiveLineColor: "#dedede"
 # tags color
@@ -23,9 +23,10 @@ categoryColor: "#23ef23"
 imgURL: imgs/beach.jpg
 index:
   links: 
-    archive: /archives/
-    tags: /tags/
-    categories: /categories/
+    主页: /
+    归档: /archives/
+    标签: /tags/
+    分类: /categories/
     关于我: /about/
 
 ### ----------------------------------------------------
