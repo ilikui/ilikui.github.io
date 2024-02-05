@@ -48,7 +48,7 @@ solar:
     venus_image: /images/venus.png
 
 # RSS
-rss: false
+rss: true
 
 # Plugins
 plugins:
