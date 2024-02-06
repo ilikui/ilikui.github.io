@@ -1,6 +1,7 @@
 ---
 title: about
 date: 2023-01-11 12:25:09
+giscus: true
 ---
 
 > HEXO 搭建的网络日志博客
