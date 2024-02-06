@@ -22,7 +22,7 @@ categoryColor: "#23ef23"
 #  首页配置
 ### ----------------------------------------------------
 # 首页图片地址
-imgURL: https://img.xjh.me/random_img.php
+imgURL: https://img.xjh.me/random_img.php?type=bg&ctype=acg&return=302
 index:
   links: 
     主页: /
