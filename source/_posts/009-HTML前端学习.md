@@ -77,4 +77,4 @@ tags: HTML
 
 > 参考文件
 
-[1] : https://wickedlysmart.com/hfhtmlcss/
+[1] : https://wickedlysmart.com/head-first-html-css/
