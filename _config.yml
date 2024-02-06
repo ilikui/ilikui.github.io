@@ -108,7 +108,7 @@ exclude:
    - "source/js"
 ignore:
 
-
+giscus: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

@@ -1,0 +1,20 @@
+.to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+  transition: all 250ms ease;
+}
+.to-top:hover {
+  background: var(--container-color);
+}
+.to-top a {
+  display: block;
+  height: 40px;
+  width: 40px;
+}

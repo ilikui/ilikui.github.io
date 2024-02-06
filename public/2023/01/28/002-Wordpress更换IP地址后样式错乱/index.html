@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客 | 002-Wordpress更换IP地址后样式错乱</title>
+
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="likui">
+
+    <meta name="color-scheme" content="light dark">
+
+    
+    
+<link rel="stylesheet" href="/styles/index.css">
+
+    
+    <link rel="shortcut icon" href="/imgs/logo.png">
+
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/base16/solarized-light.css">
+    
+
+    
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
+</head>
+
+
+<body id="delicate-app">
+    <main>
+        <div class="container">
+            <section class="page-top-badge flex-between w100">
+                <div>
+                    <a href="/">
+                        <span title="github"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <!-- <div>
+                    
+                </div> -->
+            </section>
+            <aside class="toc-container">
+    <!-- sticky toc -->
+    
+</aside>
+
+<article class="markdown-container">
+    <section>
+        <h1>
+            <span>
+                002-Wordpress更换IP地址后样式错乱
+            </span>
+        
+            <div class="post-info">
+                <span></span>
+                <span>
+                    2k字 • 
+                    3分钟
+                </span>
+            </div>
+        </h1>
+    </section>
+
+    <section class="article">
+        <blockquote>
+<p>详情参考</p>
+</blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_16881981/article/details/105012053">Wordpress更换IP地址后样式错乱</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.ttlsa.com/news/how-to-reset-wordpress-password/">WordPress忘记密码的5种解决方法</a></li>
+</ul>
+<span id="more"></span>
+<ul>
+<li>控制台的登录 mysql数据</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p //然后输入密码</span><br><span class="line">use wordpressdb; //选中你自己网站对应的数据库。</span><br><span class="line">show tables;//显示该数据库所有表格。</span><br><span class="line">select * from wp_options where 1=1 limit 10;//查看数据库前10条记录</span><br><span class="line">update wp_options set option_value=&#x27;http://服务器ip(或域名)/wordpress&#x27; where option_name=&#x27;siteurl&#x27;;</span><br><span class="line">//（如果home也改了就也改回来）</span><br><span class="line">update wp_options set option_value=&#x27;http://服务器ip(或域名)/wordpress&#x27; where option_name=&#x27;home&#x27;;</span><br><span class="line">其实就是改变了wordpress url ，则wp_options表中的siteurl的值变化了，只要把它在修改过来就行。</span><br></pre></td></tr></table></figure>
+<p>操作如下</p>
+<p><img src="https://github.com/ilikui/ilikui.github.io/blob/master/images/20230128/Capture.JPG?raw=true" alt=""></p>
+
+    </section>
+
+    
+    
+        <section class="post-cate">
+            <a href="/categories"><i class="fa fa-inbox"></i></a>
+            
+                <a href="/categories/Website/" class="cate-item">
+                    Website
+                </a>
+            
+        </section>
+    
+
+    <section class="post-cc">
+        <div class="post-cc-author">
+            <span class="bold">作者：</span><a href="mailto:vlikuiv@163.com" title="likui">likui</a>
+        </div>
+        <div class="post-cc-link">
+            <span class="bold">链接：</span><a href="/2023/01/28/002-Wordpress%E6%9B%B4%E6%8D%A2IP%E5%9C%B0%E5%9D%80%E5%90%8E%E6%A0%B7%E5%BC%8F%E9%94%99%E4%B9%B1/">https://blog.likui.info/2023/01/28/002-Wordpress更换IP地址后样式错乱/</a>
+        </div>
+        <div class="post-cc-source">
+            <span class="bold">来源：</span><a href="/">个人博客</a>
+        </div>
+        <div class="ppost-cc-declare">
+            <span class="bold">版权声明: </span>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 许可协议。著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 
+        </div>
+    </section>
+
+    <section class="flex-between" style="margin: 20px 0;">
+        <div class="pre">
+            
+                <a href="/2023/01/30/003-%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" class="change-link">
+                    <span class="icon"><i class="fa fa-angle-double-left"></i></span>
+                    <span class="text">
+                        <span class="identify">上一篇</span>
+                        <span class="text-title">003-自动驾驶使用的操作系统</span>
+                    </span>
+                </a>
+            
+        </div>
+        <div class="next">
+            
+                <a href="/2023/01/13/001-Autosar%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/" class="change-link">
+                    <span class="text">
+                        <span class="identify" style="text-align: right;">下一篇</span>
+                        <span class="text-title" style="text-align: right;">001 Autosar知识汇总</span>
+                    </span>
+                    <span class="icon"><i class="fa fa-angle-double-right"></i></span>
+                </a>
+            
+        </div>
+    </section>
+
+    <!-- comment -->
+    <section class="comment-container">
+        <!-- giscus -->
+        
+    </section>
+</article>
+
+
+
+
+            <section class="article-bottom flex-between">
+                <div class="flex-center">
+                    <img src="/imgs/logo.png" class="logo">
+                    <span>长风破浪会有时，直挂云帆济沧海</span>
+                </div>
+                <div class="flex-center">
+                    <a href="mailto:vlikuiv@163.com">
+                        <span title="envelope">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <a target="_blank" rel="noopener" href="https://github.com/ilikui">
+                        <span title="github" style="font-size: 18px;">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="to-top">
+    <a href="javascript: void(0)" onclick="delicate.toTop()">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <footer>
+        <div class="footer-info gray">
+    <div>
+        <span><a target="_blank" rel="noopener" href="https://github.com/can-dy-jack/hexo-theme-delicate">Delicate</a> theme designed with ❤️ by <a target="_blank" rel="noopener" href="https://github.com/can-dy-jack">can-dy-jack</a></span>
+    </div>
+    <div>
+        <span>Copyright Ⓒ 2024. All rights reserved.</span>
+    </div>
+</div>
+    </footer>
+
+    
+
+
+<script src="/js/index.js"></script>
+
+
+</body>
+
+</html>
