@@ -6,7 +6,9 @@ github: https://github.com/ilikui
 # 主题颜色
 color: "#2eacd2"
 # 页面slogan
-poem: "长风破浪会有时，直挂云帆济沧海"
+#poem: "长风破浪会有时，直挂云帆济沧海"  
+#使用API
+poem: <img src="https://v1.jinrishici.com/all.svg">
 # email 地址
 email: vlikuiv@163.com
 # archive line color
@@ -20,7 +22,7 @@ categoryColor: "#23ef23"
 #  首页配置
 ### ----------------------------------------------------
 # 首页图片地址
-imgURL: imgs/beach.jpg
+imgURL: https://img.xjh.me/random_img.php
 index:
   links: 
     主页: /
