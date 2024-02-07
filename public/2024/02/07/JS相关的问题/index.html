@@ -61,8 +61,8 @@
             <div class="post-info">
                 <span></span>
                 <span>
-                    4k字 • 
-                    8分钟
+                    5k字 • 
+                    11分钟
                 </span>
             </div>
         </h1>
@@ -91,6 +91,13 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 相关的函数测试</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">person</span>(<span class="params">status</span>)&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(status)&#123;</span><br><span class="line">        <span class="keyword">let</span> value = <span class="string">&quot;蛙人&quot;</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(value) <span class="comment">//error</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(value);<span class="comment">//error</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">person</span>(<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>函数出错</p>
+</blockquote>
+<blockquote>
+<p>const测试</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> person=&#123;</span><br><span class="line">    <span class="attr">name</span>:<span class="string">&quot;蛙人&quot;</span>,</span><br><span class="line">    <span class="attr">age</span>:<span class="number">23</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">person.<span class="property">age</span>=<span class="number">14</span>;</span><br><span class="line">person = &#123;&#125; <span class="comment">//error</span></span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(person.<span class="property">age</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>虽然const变量不能修改指针，但是可以修改值，比如我们定义一个对象，我们就可以修改对象里的属性值，但是不可以重写整个对象。</p>
 </blockquote>
 
     </section>

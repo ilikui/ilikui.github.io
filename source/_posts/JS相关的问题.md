@@ -53,3 +53,21 @@ person(false);
 ```
 
 > 函数出错
+
+
+> const测试
+
+```js
+const person={
+    name:"蛙人",
+    age:23
+}
+
+person.age=14;
+person = {} //error
+
+console.log(person.age)
+
+```
+
+> 虽然const变量不能修改指针，但是可以修改值，比如我们定义一个对象，我们就可以修改对象里的属性值，但是不可以重写整个对象。
