@@ -6,7 +6,7 @@
   <link href="https://blog.likui.info/atom.xml" rel="self"/>
   
   <link href="https://blog.likui.info/"/>
-  <updated>2024-02-06T02:42:47.662Z</updated>
+  <updated>2024-02-07T01:57:29.132Z</updated>
   <id>https://blog.likui.info/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs学习教程</title>
+    <link href="https://blog.likui.info/2024/02/07/nodejs%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.likui.info/2024/02/07/nodejs%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B/</id>
+    <published>2024-02-07T01:41:30.000Z</published>
+    <updated>2024-02-07T01:57:29.132Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>NodeJS学习教程</p></blockquote><span id="more"></span><h2 id="NodeJS安装">NodeJS安装</h2>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NodeJS学习教程&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Web" scheme="https://blog.likui.info/categories/Web/"/>
+    
+    
+    <category term="NodeJs" scheme="https://blog.likui.info/tags/NodeJs/"/>
+    
+  </entry>
   
   <entry>
     <title>常用的RSS订阅源</title>
