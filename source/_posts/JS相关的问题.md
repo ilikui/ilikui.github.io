@@ -12,11 +12,9 @@ tags: JavaScript
 * 一看就懂的var、let、const三者区别
 
 ```js
-
 /**
  * 相关的函数使用
  */
-
 function person(status){
 
     if(status){
@@ -26,7 +24,5 @@ function person(status){
     }
     console.log(value);//undefined
 }
-
-
 person(false)
-``
+```
