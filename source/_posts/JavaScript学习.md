@@ -8,6 +8,18 @@ tags: JavaScript
 > JavaScript学习
 <!-- more -->
 
+## JavaScript 简介
+
+
+
+## JavaScript 用法
+
+
+## JavaScript 输出
+
+
+## JavaScript 语句
+
 
 
 
