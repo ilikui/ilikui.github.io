@@ -10,6 +10,11 @@ tags: JavaScript
 <!-- more -->
 
 * 一看就懂的var、let、const三者区别
+    * 只在当前函数下声明的变量有效
+    * 在代码块和{ }括号之内有效
+
+
+> 使用VAR
 
 ```js
 /**
@@ -26,3 +31,25 @@ function person(status){
 }
 person(false)
 ```
+> 使用Let
+
+```js
+
+/**
+ * 相关的函数测试
+ */
+
+function person(status){
+
+    if(status){
+        let value = "蛙人";
+    }else{
+        console.log(value) //error
+    }
+
+    console.log(value);//error
+}
+person(false);
+```
+
+> 函数出错
