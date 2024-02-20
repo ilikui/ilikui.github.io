@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人博客 | 新的一天</title>
+    <title>个人博客 | 去掉windows桌面快捷</title>
 
     
     <meta name="description" content="">
@@ -55,14 +55,14 @@
     <section>
         <h1>
             <span>
-                新的一天
+                去掉windows桌面快捷
             </span>
         
             <div class="post-info">
                 <span></span>
                 <span>
-                    0k字 • 
-                    0分钟
+                    1k字 • 
+                    2分钟
                 </span>
             </div>
         </h1>
@@ -70,16 +70,33 @@
 
     <section class="article">
         <blockquote>
-<p>简单记录回到<code>上海</code></p>
+<p>使用批处理去掉桌面软件快捷方式</p>
 </blockquote>
-<ul>
-<li>整理相关的资料</li>
-<li>整理屋子</li>
-</ul>
+<span id="more"></span>
 
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons&quot; /v 29 /d &quot;%systemroot%\system32\imageres.dll,197&quot; /t reg_sz /f</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">attrib -s -r -h &quot;%userprofile%\AppData\Local\iconcache.db&quot;</span><br><span class="line">del &quot;%userprofile%\AppData\Local\iconcache.db&quot; /f /q</span><br><span class="line">start explorer</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
     </section>
 
     
+        <section class="post-tag">
+            <a href="/tags"><i class="fa fa-tags"></i></a>
+            
+                <a href="/tags/Bat/" class="tag-item">
+                    Bat
+                </a>
+            
+        </section>
+    
+    
+        <section class="post-cate">
+            <a href="/categories"><i class="fa fa-inbox"></i></a>
+            
+                <a href="/categories/Windows/" class="cate-item">
+                    Windows
+                </a>
+            
+        </section>
     
 
     <section class="post-cc">
@@ -87,7 +104,7 @@
             <span class="bold">作者：</span><a href="mailto:vlikuiv@163.com" title="likui">likui</a>
         </div>
         <div class="post-cc-link">
-            <span class="bold">链接：</span><a href="/2024/02/19/%E6%96%B0%E7%9A%84%E4%B8%80%E5%A4%A9/">https://blog.likui.info/2024/02/19/新的一天/</a>
+            <span class="bold">链接：</span><a href="/2024/02/20/%E5%8E%BB%E6%8E%89windows%E6%A1%8C%E9%9D%A2%E5%BF%AB%E6%8D%B7/">https://blog.likui.info/2024/02/20/去掉windows桌面快捷/</a>
         </div>
         <div class="post-cc-source">
             <span class="bold">来源：</span><a href="/">个人博客</a>
@@ -100,21 +117,13 @@
     <section class="flex-between" style="margin: 20px 0;">
         <div class="pre">
             
-                <a href="/2024/02/20/%E5%8E%BB%E6%8E%89windows%E6%A1%8C%E9%9D%A2%E5%BF%AB%E6%8D%B7/" class="change-link">
-                    <span class="icon"><i class="fa fa-angle-double-left"></i></span>
-                    <span class="text">
-                        <span class="identify">上一篇</span>
-                        <span class="text-title">去掉windows桌面快捷</span>
-                    </span>
-                </a>
-            
         </div>
         <div class="next">
             
-                <a href="/2024/02/19/hello-world/" class="change-link">
+                <a href="/2024/02/19/%E6%96%B0%E7%9A%84%E4%B8%80%E5%A4%A9/" class="change-link">
                     <span class="text">
                         <span class="identify" style="text-align: right;">下一篇</span>
-                        <span class="text-title" style="text-align: right;">Hello World</span>
+                        <span class="text-title" style="text-align: right;">新的一天</span>
                     </span>
                     <span class="icon"><i class="fa fa-angle-double-right"></i></span>
                 </a>

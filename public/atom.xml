@@ -6,7 +6,7 @@
   <link href="https://blog.likui.info/atom.xml" rel="self"/>
   
   <link href="https://blog.likui.info/"/>
-  <updated>2024-02-19T03:22:48.336Z</updated>
+  <updated>2024-02-20T10:11:06.591Z</updated>
   <id>https://blog.likui.info/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>去掉windows桌面快捷</title>
+    <link href="https://blog.likui.info/2024/02/20/%E5%8E%BB%E6%8E%89windows%E6%A1%8C%E9%9D%A2%E5%BF%AB%E6%8D%B7/"/>
+    <id>https://blog.likui.info/2024/02/20/%E5%8E%BB%E6%8E%89windows%E6%A1%8C%E9%9D%A2%E5%BF%AB%E6%8D%B7/</id>
+    <published>2024-02-20T10:08:58.000Z</published>
+    <updated>2024-02-20T10:11:06.591Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>使用批处理去掉桌面软件快捷方式</p></blockquote><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons&quot; /v 29 /d &quot;%systemroot%\system32\imageres.dll,197&quot; /t reg_sz /f</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">attrib -s -r -h &quot;%userprofile%\AppData\Local\iconcache.db&quot;</span><br><span class="line">del &quot;%userprofile%\AppData\Local\iconcache.db&quot; /f /q</span><br><span class="line">start explorer</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;使用批处理去掉桌面软件快捷方式&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Windows" scheme="https://blog.likui.info/categories/Windows/"/>
+    
+    
+    <category term="Bat" scheme="https://blog.likui.info/tags/Bat/"/>
+    
+  </entry>
   
   <entry>
     <title>新的一天</title>
@@ -443,27 +466,6 @@
     
     
     <category term="Blog" scheme="https://blog.likui.info/categories/Blog/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>相关网站推荐</title>
-    <link href="https://blog.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
-    <id>https://blog.likui.info/2023/01/12/%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</id>
-    <published>2023-01-12T05:15:27.000Z</published>
-    <updated>2024-02-19T02:53:57.241Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>相关的网站推荐链接</p></blockquote><span id="more"></span><p><img src="../images/20230111/2023011101.JPG" alt=""></p><hr><blockquote><p>Markdown 软件设置图片大小比例</p></blockquote><ul><li><a href="https://www.zhihu.com/question/23378396">markdown中插入图片怎么定义图片的大小或比例</a></li></ul><blockquote><p>常用的网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>V2</td><td><a href="https://v2.nl/">V2</a></td><td>博客推荐</td></tr><tr><td>chatGPT</td><td><a href="https://chat.openai.com/chat">chatGPT</a></td><td>OpenAI</td></tr><tr><td>科学网</td><td><a href="https://www.sciencenet.cn/">科学网</a></td><td>科学网</td></tr><tr><td>科学网博客</td><td><a href="https://blog.sciencenet.cn/blog.php">科学网博客</a></td><td>科学网博客</td></tr><tr><td>medium</td><td><a href="https://medium.com/">medium</a></td><td>medium</td></tr><tr><td>read</td><td><a href="https://read.cv/">read</a></td><td>read</td></tr><tr><td>r2coding</td><td><a href="https://www.r2coding.com/">r2coding</a></td><td>r2coding</td></tr></tbody></table><blockquote><p>常看的博客网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>leimao</td><td><a href="https://leimao.github.io/">leimao</a></td><td>leimao</td></tr></tbody></table><blockquote><p>常用的资源网站</p></blockquote><table><thead><tr><th>网站</th><th>链接</th><th>说明</th></tr></thead><tbody><tr><td>amz123</td><td><a href="https://www.amz123.com/tuku">leimao</a></td><td>amz123</td></tr></tbody></table>]]></content>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;相关的网站推荐链接&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="Website" scheme="https://blog.likui.info/categories/Website/"/>
     
     
   </entry>
