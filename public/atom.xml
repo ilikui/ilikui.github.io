@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>个人博客</title>
   
-  
+  <subtitle>笔记记录</subtitle>
   <link href="https://blog.likui.info/atom.xml" rel="self"/>
   
   <link href="https://blog.likui.info/"/>
