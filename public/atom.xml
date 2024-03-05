@@ -220,13 +220,13 @@
   </entry>
   
   <entry>
-    <title>010 Makefile of learning</title>
-    <link href="https://blog.likui.info/2023/06/12/010-Makefile-of-learning/"/>
-    <id>https://blog.likui.info/2023/06/12/010-Makefile-of-learning/</id>
+    <title>Makefile of learning</title>
+    <link href="https://blog.likui.info/2023/06/12/Makefile-of-learning/"/>
+    <id>https://blog.likui.info/2023/06/12/Makefile-of-learning/</id>
     <published>2023-06-12T10:19:35.000Z</published>
-    <updated>2024-02-19T02:53:57.225Z</updated>
+    <updated>2024-03-05T12:37:11.940Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Makefile学习总结</p></blockquote><span id="more"></span><p><img src="/010-Makefile-of-learning/make.png"></p><h2 id="MakeFile学习总结"><a href="#MakeFile学习总结" class="headerlink" title="MakeFile学习总结"></a>MakeFile学习总结</h2><p>推荐视频学习: :<a href="https://www.bilibili.com/video/BV1Bv4y1J7QT/?spm_id_from=333.337.search-card.all.click&vd_source=e2c0e34ec8285e72cd75c6dbf7d498f5">makefile学习</a></p><table><thead><tr><th>编号</th><th>记录</th><th></th></tr></thead><tbody><tr><td>1</td><td><a href="https://www.bilibili.com/video/BV1Bv4y1J7QT?p=1&vd_source=e2c0e34ec8285e72cd75c6dbf7d498f5">随便聊两句</a></td><td></td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Makefile学习总结</p></blockquote><span id="more"></span><h2 id="MakeFile学习总结"><a href="#MakeFile学习总结" class="headerlink" title="MakeFile学习总结"></a>MakeFile学习总结</h2><p>推荐视频学习: :<a href="https://www.bilibili.com/video/BV1Bv4y1J7QT/?spm_id_from=333.337.search-card.all.click&vd_source=e2c0e34ec8285e72cd75c6dbf7d498f5">makefile学习</a></p><table><thead><tr><th>编号</th><th>记录</th><th></th></tr></thead><tbody><tr><td>1</td><td><a href="https://www.bilibili.com/video/BV1Bv4y1J7QT?p=1&vd_source=e2c0e34ec8285e72cd75c6dbf7d498f5">随便聊两句</a></td><td></td></tr><tr><td>2</td><td><a href="https://www.bilibili.com/video/BV1Bv4y1J7QT?p=2&vd_source=e2c0e34ec8285e72cd75c6dbf7d498f5">环境搭建</a></td><td></td></tr></tbody></table>]]></content>
     
     
     <summary type="html">&lt;blockquote&gt;
