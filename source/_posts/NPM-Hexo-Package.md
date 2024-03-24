@@ -1,5 +1,5 @@
 ---
-title: 011-NPM Hexo Package
+title: NPM Hexo Package
 date: 2023-06-14 07:34:04
 categories:  Web
 tags: npm

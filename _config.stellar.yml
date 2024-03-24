@@ -1,0 +1,9 @@
+inject:
+  head:
+    - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  script:
+  
+style:
+  font-family:
+    body: '"Noto Serif SC", "Microsoft Yahei",..., sans-serif'
+
