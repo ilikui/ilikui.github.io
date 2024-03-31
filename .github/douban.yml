@@ -4,6 +4,7 @@ name: douban
 on:
   # Runs on pushes targeting the default branch
   push:
+    branches: ["hexo"]
 #on:
 #  schedule:
 #  - cron: "0 0 * * *"
