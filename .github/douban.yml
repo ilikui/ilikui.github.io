@@ -4,7 +4,8 @@ name: douban
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["hexo"]
+    branches:    
+      - hexo
   workflow_dispatch:
 #on:
 #  schedule:
