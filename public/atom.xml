@@ -6,7 +6,7 @@
   <link href="https://blog.likui.info/atom.xml" rel="self"/>
   
   <link href="https://blog.likui.info/"/>
-  <updated>2026-01-24T11:23:05.652Z</updated>
+  <updated>2026-01-24T11:26:32.710Z</updated>
   <id>https://blog.likui.info/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.likui.info/2026/01/24/hexo%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://blog.likui.info/2026/01/24/hexo%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2026-01-24T11:09:06.000Z</published>
-    <updated>2026-01-24T11:23:05.652Z</updated>
+    <updated>2026-01-24T11:26:32.710Z</updated>
     
-    <content type="html"><![CDATA[<hr><blockquote><p>HEXO的基本使用</p></blockquote><blockquote><p>[!NOTE]<br>创建文章</p></blockquote><hr><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;hexo的基本使用&quot;</span><br></pre></td></tr></table></figure><blockquote><p>[!NOTE]<br>生成文章</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<hr><blockquote><p>HEXO的基本使用</p></blockquote><blockquote><p>[!NOTE]<br>创建文章</p></blockquote><hr><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;hexo的基本使用&quot;</span><br></pre></td></tr></table></figure><blockquote><p>[!NOTE]<br>生成文章</p></blockquote><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -33,11 +33,10 @@
 &lt;p&gt;HEXO的基本使用&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!NOTE]&lt;br&gt;
-创建文章&lt;/p&gt;
+&lt;p&gt;[!NOTE]&lt;br&gt;创建文章&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;figure class=&quot;highlight md&quot;&gt;&lt;table</summary>
+&lt;figure class=&quot;highlight md&quot;&gt;&lt;table&gt;</summary>
       
     
     

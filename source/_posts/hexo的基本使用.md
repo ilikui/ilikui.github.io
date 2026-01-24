@@ -27,3 +27,7 @@ hexo new post "hexo的基本使用"
 > [!NOTE]
 > 生成文章
 >
+
+```md
+hexo generate
+```
