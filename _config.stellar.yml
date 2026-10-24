@@ -3,12 +3,12 @@
 
 inject:
   head:
-    - <link rel="preconnect" href="https://fonts.googleapis.com">
-    - <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    - '<link rel="preconnect" href="https://fonts.googleapis.com">'
+    - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+    - '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">'
   script: []
 
-# 导航保持精简：文章、分类、标签、归档、关于。
+# 导航保持精简：博客首页、分类、标签、归档、关于。
 menubar:
   columns: 5
   items:
@@ -16,7 +16,7 @@ menubar:
       theme: '#2F6B5F'
       icon: solar:documents-bold-duotone
       title: 博客
-      url: /blog/
+      url: /
     - id: categories
       theme: '#477A9E'
       icon: solar:folder-with-files-bold-duotone
