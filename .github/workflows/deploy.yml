@@ -1,0 +1,68 @@
+name: Build and deploy Hexo blog
+
+on:
+  push:
+    branches:
+      - hexo
+  pull_request:
+    branches:
+      - hexo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hexo-blog-${ github.ref }
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate static site
+        run: |
+          npx hexo clean
+          npm run build
+
+      - name: Verify generated site
+        run: |
+          test -s public/index.html
+          test -s public/CNAME
+          grep -q "blog.likui.info" public/CNAME
+          echo "Generated site files:"
+          find public -maxdepth 2 -type f | sort | head -100
+
+      - name: Upload generated site artifact
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: hexo-public-preview
+          path: public/
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Deploy to GitHub Pages branch
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/hexo'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${ secrets.GITHUB_TOKEN }
+          publish_branch: master
+          publish_dir: ./public
+          cname: blog.likui.info
+          force_orphan: true
+          commit_message: "deploy: ${ github.event.head_commit.message }"
