@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 个人博客
-subtitle: '笔记记录'
-description: ''
-keywords:
-author: likui
+title: Likui · 知识花园
+subtitle: '持续积累，持续创造。'
+description: '记录技术实践、阅读思考与持续学习，构建可连接、可复用的个人知识体系。'
+keywords: 知识管理, 编程, C语言, RTOS, 阅读笔记, 思维导图
+author: Likui
 language: zh-CN
 timezone: 'Asia/Shanghai'
 

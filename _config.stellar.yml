@@ -1,9 +1,68 @@
+# Stellar 1.27.0 站点配置覆盖
+# 主题本体位于 themes/stellar，版本由 themes/stellar/package.json 锁定。
+
 inject:
   head:
-    - <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
-  script:
-  
-style:
-  font-family:
-    body: '"Noto Serif SC", "Microsoft Yahei",..., sans-serif'
+    - '<link rel="preconnect" href="https://fonts.googleapis.com">'
+    - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+    - '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">'
+  script: []
 
+# 导航保持精简：博客首页、分类、标签、归档、关于。
+menubar:
+  columns: 5
+  items:
+    - id: post
+      theme: '#2F6B5F'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+    - id: categories
+      theme: '#477A9E'
+      icon: solar:folder-with-files-bold-duotone
+      title: 分类
+      url: /categories/
+    - id: tags
+      theme: '#B17A3D'
+      icon: solar:hashtag-square-bold-duotone
+      title: 标签
+      url: /tags/
+    - id: archives
+      theme: '#7B6AA6'
+      icon: solar:calendar-bold-duotone
+      title: 归档
+      url: /archives/
+    - id: about
+      theme: '#6B7280'
+      icon: solar:user-circle-bold-duotone
+      title: 关于
+      url: /about/
+
+style:
+  prefers_theme: auto
+  smooth_scroll: true
+  font-size:
+    root: 16px
+    body: 17px
+    code: 85%
+    codeblock: 0.8125rem
+  font-family:
+    logo: '"Noto Serif SC", "Microsoft Yahei", sans-serif'
+    body: '"Noto Serif SC", "Microsoft Yahei", sans-serif'
+    code: 'Menlo, Monaco, Consolas, "Courier New", monospace'
+    codeblock: 'Menlo, Monaco, Consolas, "Courier New", monospace'
+  text-align: left
+  border-radius:
+    card-l: 18px
+    card: 14px
+    bar: 9px
+    image: 12px
+  color:
+    background: 'hsl(210 20% 98%)'
+    block: 'hsl(210 16% 95%)'
+    code: 'hsl(220 20% 10%)'
+    text: 'hsl(215 18% 20%)'
+    theme: 'hsl(166 35% 34%)'
+    accent: 'hsl(28 72% 52%)'
+    link: 'hsl(166 35% 34%)'
+    hover: 'hsl(28 72% 52%)'
