@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hexo-blog-${ github.ref }
+  group: hexo-blog-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -60,9 +60,9 @@ jobs:
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/hexo'
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${ secrets.GITHUB_TOKEN }
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: master
           publish_dir: ./public
           cname: blog.likui.info
           force_orphan: true
-          commit_message: "deploy: ${ github.event.head_commit.message }"
+          commit_message: "deploy: ${{ github.event.head_commit.message }}"
